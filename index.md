@@ -1,11 +1,11 @@
 ---
 layout: default
-title:  Hello
+title:  Hello, I am Wolfgang
 ---
 
 # {{ page.title }}
 
-## The short of it
+## Quick facts
 - I am an independent Software Developer working and living in Vienna, Austria.
 - I can **create**, **maintain**, **deploy** and **operate** your backend systems.
 - I use test driven development and automated testing wherever I can.
