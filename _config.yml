@@ -1,0 +1,27 @@
+###########
+# site.title
+
+title:    'Wolfgang Deutsch'
+subtitle: 'For all your advanced backend systems needs. Some extras included.'
+
+
+nav:
+- { title: 'Services',             href: '/services.md' }
+- { title: 'Social', href: '/social.md'}
+- { title: 'Blog', href: '/blog.md'}
+- { title: 'Contact', href: '/contact.md' }
+
+
+#########################
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+exclude:
+- README.md
+- LICENSE.md
+
