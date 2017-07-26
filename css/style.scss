@@ -16,8 +16,8 @@
 
 body {
   font-family: $font-family;
-  color:        #111111;
-  background-color: #E3DBBE;
+  color:        #000000;
+  background-color: #C0C0C0;
 }
 
 a, a:visited {
@@ -30,7 +30,8 @@ a:hover {
 }
 
 a.en, a.de {
-    color: navy;
+    color: 000000;
+    font-size: 80%;
 }
 
 #header {
@@ -51,7 +52,7 @@ a.en, a.de {
   padding: 6px;
   font-size:   120%;
   text-align: center;
-  background-color: #D3CAAA;
+  background-color: #000080;
 }
 
 #footer {
