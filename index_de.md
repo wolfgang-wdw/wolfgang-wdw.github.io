@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Hallo 
+title:  Hallo
 lang: de
 ref: home
 ---
@@ -8,10 +8,10 @@ ref: home
 # {{ page.title }}
 
 ## Ein paar schnelle Fakten
-- Ich bin ein independent Software Developer working and living in Vienna, Austria.
-- I can **create**, **maintain**, **deploy** and **operate** your backend systems.
-- I use test driven development and automated testing wherever I can.
-- I know a little bit about game development.
+- Ich bin ein unabhängiger Software Entwickler in Wien, Österreich.
+- Ich kann deine backend systeme bauen, deployen, erhalten und betreiben.
+- Ich benutze "test driven development" und automatisierte Tests wo immer es geht.
+- Ich weiss ein bißchen etwas über Spieleentwicklung.
 
 <!-- ## What makes me tick
 - A manifesto of sorts
