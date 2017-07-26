@@ -1,14 +1,14 @@
 ---
 layout: default
-title:  Hello, I am Wolfgang
-lang: en
+title:  Hallo, ich bin Wolfgang
+lang: de
 ref: home
 ---
 
 # {{ page.title }}
 
-## Quick facts
-- I am an independent Software Developer working and living in Vienna, Austria.
+## Ein paar schnelle Fakten
+- Ich bin ein independent Software Developer working and living in Vienna, Austria.
 - I can **create**, **maintain**, **deploy** and **operate** your backend systems.
 - I use test driven development and automated testing wherever I can.
 - I know a little bit about game development.

@@ -11,7 +11,6 @@ nav:
     - { title: 'Social', href: '/social.html'}
     - { title: 'Blog', href: '/blog.html'}
     - { title: 'Contact', href: '/contact.html' }
-
   de:
     - { title: 'Start', href: '/' }
     - { title: 'Leistungen', href: '/leistungen.html' }
@@ -32,13 +31,3 @@ sass:
 exclude:
 - README.md
 - LICENSE.md
-
-translations:
-  en:
-    home:
-      name: "Home"
-      url: "/"
-    about:
-      name: "Services"
-      url: "/services/"
-  fr:
