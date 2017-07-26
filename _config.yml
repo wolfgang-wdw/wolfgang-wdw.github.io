@@ -1,7 +1,6 @@
 ###########
 # site.title
 
-
 title:
   en: 'Wolfgang Deutsch'
   de: 'Wolfgang Deutsch'
@@ -22,10 +21,6 @@ nav:
     - { title: 'Social', href: '/social_de.html'}
     - { title: 'Blog', href: '/blog_de.html'}
     - { title: 'Kontakt', href: '/kontakt.html' }
-
-
-#########################
-# more settings
 
 markdown: kramdown
 
