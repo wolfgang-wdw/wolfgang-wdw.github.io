@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Hallo, ich bin Wolfgang
+title:  Hallo 
 lang: de
 ref: home
 ---

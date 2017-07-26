@@ -1,8 +1,13 @@
 ###########
 # site.title
 
-title:    'Wolfgang Deutsch'
-subtitle: 'Software Developer. Some extras included.'
+
+title:
+  en: 'Wolfgang Deutsch'
+  de: 'Wolfgang Deutsch'
+subtitle:
+  en: 'Software Developer. Some extras included.'
+  de: 'Software Entwickler. Mit ein paar Extras'
 
 nav:
   en:

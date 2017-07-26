@@ -1,10 +1,9 @@
 ---
 layout: default
-title:  Hello, I am Wolfgang
+title:  Hello
 lang: en
 ref: home
 ---
-
 # {{ page.title }}
 
 ## Quick facts
