@@ -1,6 +1,6 @@
 <div id="nav">
   |
-{% for item in site.nav %}
+{% for item in site.nav[page.lang] %}
   {% if item.href contains 'http' %}
      <a href="{{ item.href }}">{{ item.title }}</a>
   {% else %}

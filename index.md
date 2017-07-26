@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  Hello, I am Wolfgang
+lang: en
 ---
 
 # {{ page.title }}

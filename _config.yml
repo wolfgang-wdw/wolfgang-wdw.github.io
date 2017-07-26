@@ -4,13 +4,20 @@
 title:    'Wolfgang Deutsch'
 subtitle: 'Software Developer. Some extras included.'
 
-
 nav:
-- { title: 'Home',                 href: '/' }
-- { title: 'Services',             href: '/services.html' }
-- { title: 'Social', href: '/social.html'}
-- { title: 'Blog', href: '/blog.html'}
-- { title: 'Contact', href: '/contact.html' }
+  en:
+    - { title: 'Home', href: '/' }
+    - { title: 'Services', href: '/services.html' }
+    - { title: 'Social', href: '/social.html'}
+    - { title: 'Blog', href: '/blog.html'}
+    - { title: 'Contact', href: '/contact.html' }
+
+  de:
+    - { title: 'Start', href: '/' }
+    - { title: 'Leistungen', href: '/leistungen.html' }
+    - { title: 'Social', href: '/social_de.html'}
+    - { title: 'Blog', href: '/blog_de.html'}
+    - { title: 'Kontakt', href: '/kontakt.html' }
 
 
 #########################
@@ -25,3 +32,13 @@ sass:
 exclude:
 - README.md
 - LICENSE.md
+
+translations:
+  en:
+    home:
+      name: "Home"
+      url: "/"
+    about:
+      name: "Services"
+      url: "/services/"
+  fr:
