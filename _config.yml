@@ -2,14 +2,15 @@
 # site.title
 
 title:    'Wolfgang Deutsch'
-subtitle: 'For all your advanced backend systems needs. Some extras included.'
+subtitle: 'Software Developer. Some extras included.'
 
 
 nav:
-- { title: 'Services',             href: '/services.md' }
-- { title: 'Social', href: '/social.md'}
-- { title: 'Blog', href: '/blog.md'}
-- { title: 'Contact', href: '/contact.md' }
+- { title: 'Home',                 href: '/' }
+- { title: 'Services',             href: '/services.html' }
+- { title: 'Social', href: '/social.html'}
+- { title: 'Blog', href: '/blog.html'}
+- { title: 'Contact', href: '/contact.html' }
 
 
 #########################
@@ -24,4 +25,3 @@ sass:
 exclude:
 - README.md
 - LICENSE.md
-

@@ -16,6 +16,7 @@
 
 body {
   font-family: $font-family;
+  color:        #606060;
 }
 
 a, a:visited {
@@ -42,16 +43,11 @@ a:hover {
 #header .small {
   font-size:    90%;
   color:        grey;
-  padding-left: 15px;
 }
 
 #nav {
   padding: 6px;
   font-size:   120%;
   text-align: center;
-  background-color: #FEF9CD;
+  background-color: #282828;
 }
-
-
-
-
