@@ -11,8 +11,8 @@
 
 
 #fancy_list {
-  width: 30%;
-  margin: 30px;
+  width: 100%;
+  margin: 0%;
 }
 
 // h2 {
@@ -28,7 +28,7 @@
 
 #fancy_list li {
   font: 200 20px/1.5 $font-family;
-  border-bottom: 1px solid #ccc;
+  //border-bottom: 1px solid #ccc;
 }
 
 #fancy_list li:last-child {
