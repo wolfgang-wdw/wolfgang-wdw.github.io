@@ -22,6 +22,40 @@ nav:
     - { title: 'Blog', href: '/blog_de'}
     - { title: 'Kontakt', href: '/kontakt' }
 
+# * **Code**
+#   * Backend systems
+#   * Code cleanup
+#   * Code rewrite
+#   * Automation
+# * **Operation**
+#   * Deployment
+#   * Monitoring
+#   * Cloud/Serverless computing
+#   * Systems Lifecycle
+#   * Continuous Integration
+#   * Change management
+# * **Coaching**
+# * **Consulting**
+# * **Leadership**
+
+
+services:
+  en:
+    - name: Code
+      sections:
+        - { name: 'Backend systems', href: '/backend_systems' }
+        - { name: 'Code cleanup', href: '/code_cleanup' }
+        - { name: 'Code rewrite', href: '/code_rewrite' }
+        - { name: 'Automation', href: '/automation'}
+    - name: Operation
+      sections:
+        - { name: 'Deployment', href: '/deployment'}
+        - { name: 'Monitoring', href: '/monitoring'}
+        - { name: 'Cloud', href: '/cloud'}
+        - { name: 'Systems Lifecylcle', href: '/systems_lifecycle'}
+        - { name: 'Continuous Integration', href: '/continous_integration'}
+        - { name: 'Change management', href: '/change_management'}
+
 markdown: kramdown
 
 sass:

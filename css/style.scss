@@ -7,12 +7,7 @@
 #       style:    expanded
 ---
 
-
 @import 'settings';
-
-/*
- * css styles go here
- */
 
 body {
   font-family: $font-family;
@@ -26,6 +21,15 @@ a, a:visited {
 }
 
 a:hover {
+  text-decoration: underline;
+}
+
+a.service_href, a.service_href:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+a.service_href:hover {
   text-decoration: underline;
 }
 
