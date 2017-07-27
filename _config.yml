@@ -10,34 +10,17 @@ subtitle:
 
 nav:
   en:
-    - { title: 'Home', href_base: '' }
-    - { title: 'Services', href_base: 'services' }
-    - { title: 'Social', href_base: 'social'}
-    - { title: 'Blog', href_base: 'blog'}
-    - { title: 'Contact', href_base: 'contact' }
+    - { title: 'Home', href: '/' }
+    - { title: 'Services', href: '/services' }
+    - { title: 'Social', href: '/social'}
+    - { title: 'Blog', href: '/blog'}
+    - { title: 'Contact', href: '/contact' }
   de:
-    - { title: 'Start', href_base: 'index_de' }
-    - { title: 'Leistungen', href_base: 'leistungen' }
-    - { title: 'Social', href_base: 'social_de'}
-    - { title: 'Blog', href_base: 'blog_de'}
-    - { title: 'Kontakt', href_base: 'kontakt' }
-
-# * **Code**
-#   * Backend systems
-#   * Code cleanup
-#   * Code rewrite
-#   * Automation
-# * **Operation**
-#   * Deployment
-#   * Monitoring
-#   * Cloud/Serverless computing
-#   * Systems Lifecycle
-#   * Continuous Integration
-#   * Change management
-# * **Coaching**
-# * **Consulting**
-# * **Leadership**
-
+    - { title: 'Start', href: '/index_de' }
+    - { title: 'Leistungen', href: '/leistungen' }
+    - { title: 'Social', href: '/social_de'}
+    - { title: 'Blog', href: '/blog_de'}
+    - { title: 'Kontakt', href: '/kontakt' }
 
 services:
   en:
@@ -97,14 +80,10 @@ services:
     - name: Leadership
 
 markdown: kramdown
-
 sass:
   sass_dir: css
   style:    expanded
-
 exclude:
 - README.md
 - LICENSE.md
-
 include: ['_pages']
-permalink: /[page]/
