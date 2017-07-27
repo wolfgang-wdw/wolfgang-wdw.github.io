@@ -1,11 +1,7 @@
 <div id="nav">
   |
 {% for item in site.nav[page.lang] %}
-  {% if item.href contains 'http' %}
-     <a href="{{ item.href }}">{{ item.title }}</a>
-  {% else %}
-     <a href="{{ item.href | relative_url }}">{{ item.title }}</a>
-  {% endif %}
+  <a href="{{ item.href | relative_url }}">{{ item.title }}</a>
   |
 {% endfor %}
 
