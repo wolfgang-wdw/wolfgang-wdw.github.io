@@ -9,6 +9,50 @@
 
 @import 'settings';
 
+
+#fancy_list {
+  width: 30%;
+  margin: 30px;
+}
+
+// h2 {
+//   font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+//   margin: 0;
+//   padding: 0;
+// }
+//
+
+#fancy_list ul {
+  list-style-type: none;
+}
+
+#fancy_list li {
+  font: 200 20px/1.5 $font-family;
+  border-bottom: 1px solid #ccc;
+}
+
+#fancy_list li:last-child {
+  border: none;
+}
+
+#fancy_list li a {
+  text-decoration: none;
+  color: #000;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 100%;
+}
+
+#fancy_list li a:hover {
+  font-size: 120%;
+  background: $list-hover-background-color;
+}
+
 body {
   font-family: $font-family;
   color:        $text-color;
