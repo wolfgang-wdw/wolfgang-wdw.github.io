@@ -1,7 +1,13 @@
 <div id="nav">
   |
 {% for item in site.nav[page.lang] %}
-  <a href="{{ item.href | relative_url }}">{{ item.title }}</a>
+  {% if item.href_base == '' %}
+    {% assign lang_postfix = '' %}
+  {% else %}
+    {% assign lang_postfix = '_' | append: page.lang %}
+  {% endif %}
+  {% assign full_href = '/' | append: item.href_base | append: lang_postfix %}
+  <a href="{{ full_href | relative_url }}">{{ item.title }}</a>
   |
 {% endfor %}
 

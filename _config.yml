@@ -10,17 +10,17 @@ subtitle:
 
 nav:
   en:
-    - { title: 'Home', href: '/' }
-    - { title: 'Services', href: '/services' }
-    - { title: 'Social', href: '/social'}
-    - { title: 'Blog', href: '/blog'}
-    - { title: 'Contact', href: '/contact' }
+    - { title: 'Home', href_base: '' }
+    - { title: 'Services', href_base: 'services' }
+    - { title: 'Social', href_base: 'social'}
+    - { title: 'Blog', href_base: 'blog'}
+    - { title: 'Contact', href_base: 'contact' }
   de:
-    - { title: 'Start', href: '/index_de' }
-    - { title: 'Leistungen', href: '/leistungen' }
-    - { title: 'Social', href: '/social_de'}
-    - { title: 'Blog', href: '/blog_de'}
-    - { title: 'Kontakt', href: '/kontakt' }
+    - { title: 'Start', href_base: 'index' }
+    - { title: 'Leistungen', href_base: 'services' }
+    - { title: 'Social', href_base: 'social'}
+    - { title: 'Blog', href_base: 'blog'}
+    - { title: 'Kontakt', href_base: 'contact' }
 
 services:
   en:
