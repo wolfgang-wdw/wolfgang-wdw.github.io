@@ -9,21 +9,49 @@
 
 @import 'settings';
 
+.Table {
+    display: table;
+    width: 75%;
+    margin: auto;
+}
+
+.Title {
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.Heading {
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+}
+
+.Row {
+    display: table-row;
+}
+
+.Cell {
+    display: table-cell;
+    color: #E0E0E0;
+      // border: solid;
+      // border-width: thin;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
 
 #fancy_list {
   width: 100%;
   margin: 0%;
 }
 
-// h2 {
-//   font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
-//   margin: 0;
-//   padding: 0;
-// }
-//
-
 #fancy_list ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 #fancy_list li {
@@ -37,7 +65,7 @@
 
 #fancy_list li a {
   text-decoration: none;
-  color: #000;
+  color: #C0C0C0;
 
   -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
   -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
@@ -49,8 +77,9 @@
 }
 
 #fancy_list li a:hover {
-  font-size: 120%;
+  //font-size: 120%;
   background: $list-hover-background-color;
+  color: $list-hover-color;
 }
 
 body {

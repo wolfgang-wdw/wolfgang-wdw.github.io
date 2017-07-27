@@ -22,6 +22,20 @@ nav:
     - { title: 'Blog', href_base: 'blog'}
     - { title: 'Kontakt', href_base: 'contact' }
 
+service_colors:
+  code:
+    header: "#303030"
+    column: "#383838"
+  operation:
+    header: "#404040"
+    column: "#484848"
+  coaching:
+    header: "#505050"
+    column: "#585858"
+  consulting:
+    header: "#606060"
+    column: "#686868"
+
 services:
   en:
     - name: Code
@@ -37,7 +51,7 @@ services:
         - { name: 'Deployment', href_base: 'deployment'}
         - { name: 'Monitoring', href_base: 'monitoring'}
         - { name: 'Cloud', href_base: 'cloud'}
-        - { name: 'Systems Lifecylcle', href_base: 'systems_lifecycle'}
+        - { name: 'Systems Lifecycle', href_base: 'systems_lifecycle'}
         - { name: 'Continuous Integration', href_base: 'continous_integration'}
         - { name: 'Change management', href_base: 'change_management'}
     - name: Coaching
@@ -46,11 +60,15 @@ services:
         - { name: 'Test Driven Development', href_base: 'tdd' }
         - { name: 'Refactoring', href_base: 'refactoring' }
         - { name: 'Clean Code', href_base: 'clean_code' }
-        - { name: 'Scalability', href_base: 'scalability' }
         - { name: 'Agile Development', href_base: 'agile_development' }
-        - { name: 'Clean Code', href_base: 'clean_code' }
+        - { name: 'Scalability', href_base: 'scalability' }
     - name: Consulting
-    - name: Leadership
+      id: consulting
+      sections:
+        - { name: 'Budgeting', href_base: 'budgeting'}
+        - { name: 'Tools Evaluation', href_base: 'tools_evaluation'}
+        - { name: 'Code Review', href_base: 'code_review'}
+        - { name: 'Automation', href_base: 'automation'}
   de:
     - name: Code
       id: code
@@ -77,7 +95,13 @@ services:
         - { name: 'Skalierbarkeit', href_base: 'scalability' }
         - { name: 'Agile Entwicklung', href_base: 'agile_development' }
     - name: Consulting
-    - name: Leadership
+      id: consulting
+      sections:
+        - { name: 'Budgetierung', href_base: 'budgeting'}
+        - { name: 'Tools Evaluation', href_base: 'tools_evaluation'}
+        - { name: 'Code Review', href_base: 'code_review'}
+        - { name: 'Automation', href_base: 'automation'}
+
 
 markdown: kramdown
 sass:

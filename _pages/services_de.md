@@ -5,5 +5,4 @@ lang: de
 ref: services
 permalink: "/services_de/"
 ---
-# {{ page.title }}
 {% include services.html %}

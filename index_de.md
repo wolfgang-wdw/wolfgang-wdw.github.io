@@ -4,9 +4,6 @@ title:  Hallo
 lang: de
 ref: home
 ---
-
-# {{ page.title }}
-
 ## Ein paar schnelle Fakten
 - Ich bin ein unabhängiger Software Entwickler in Wien, Österreich.
 - Ich kann deine backend systeme bauen, deployen, erhalten und betreiben.

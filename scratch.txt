@@ -1,6 +1,3 @@
-{% for item in site.nav[page.lang] %}
-{{ service.id }}_{{ section.href_base }}_{{ page.lang }}
-  {% assign full_href = {{ item.href_base }}_{{ page.lang }} %}
-  <a href="{{ full_href | relative_url }}">{{ item.title }}</a>
-  |
-{% endfor %}
+Center services
+Different background colors
+Mobile friendly
