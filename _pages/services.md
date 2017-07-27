@@ -12,26 +12,8 @@ permalink: "/services/"
   <li><b>{{ service.name }}</b></li>
   <ul>
   {% for section in service.sections %}
-    <li><a href='{{ section.href }}' class='service_href'>{{ section.name }}</a></li>
+    <li><a href='{{ service.id }}_{{ section.href_base }}_{{ page.lang }}' class='service_href'>{{ section.name }}</a></li>
   {% endfor %}
   </ul>
 {% endfor %}
 </ul>
-
-
-<!--
-* **Code**
-  * Backend systems
-  * Code cleanup
-  * Code rewrite
-  * Automation
-* **Operation**
-  * Deployment
-  * Monitoring
-  * Cloud/Serverless computing
-  * Systems Lifecycle
-  * Continuous Integration
-  * Change management  
-* **Coaching**
-* **Consulting**
-* **Leadership** -->

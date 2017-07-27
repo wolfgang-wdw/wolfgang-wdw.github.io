@@ -10,17 +10,17 @@ subtitle:
 
 nav:
   en:
-    - { title: 'Home', href: '/' }
-    - { title: 'Services', href: '/services' }
-    - { title: 'Social', href: '/social'}
-    - { title: 'Blog', href: '/blog'}
-    - { title: 'Contact', href: '/contact' }
+    - { title: 'Home', href_base: '' }
+    - { title: 'Services', href_base: 'services' }
+    - { title: 'Social', href_base: 'social'}
+    - { title: 'Blog', href_base: 'blog'}
+    - { title: 'Contact', href_base: 'contact' }
   de:
-    - { title: 'Start', href: '/index_de' }
-    - { title: 'Leistungen', href: '/leistungen' }
-    - { title: 'Social', href: '/social_de'}
-    - { title: 'Blog', href: '/blog_de'}
-    - { title: 'Kontakt', href: '/kontakt' }
+    - { title: 'Start', href_base: 'index_de' }
+    - { title: 'Leistungen', href_base: 'leistungen' }
+    - { title: 'Social', href_base: 'social_de'}
+    - { title: 'Blog', href_base: 'blog_de'}
+    - { title: 'Kontakt', href_base: 'kontakt' }
 
 # * **Code**
 #   * Backend systems
@@ -42,19 +42,59 @@ nav:
 services:
   en:
     - name: Code
+      id: code
       sections:
-        - { name: 'Backend systems', href: '/backend_systems' }
-        - { name: 'Code cleanup', href: '/code_cleanup' }
-        - { name: 'Code rewrite', href: '/code_rewrite' }
-        - { name: 'Automation', href: '/automation'}
+        - { name: 'Backend systems', href_base: 'backend_systems' }
+        - { name: 'Code cleanup', href_base: 'code_cleanup' }
+        - { name: 'Code rewrite', href_base: 'code_rewrite' }
+        - { name: 'Automation', href_base: 'automation'}
     - name: Operation
+      id: operation
       sections:
-        - { name: 'Deployment', href: '/deployment'}
-        - { name: 'Monitoring', href: '/monitoring'}
-        - { name: 'Cloud', href: '/cloud'}
-        - { name: 'Systems Lifecylcle', href: '/systems_lifecycle'}
-        - { name: 'Continuous Integration', href: '/continous_integration'}
-        - { name: 'Change management', href: '/change_management'}
+        - { name: 'Deployment', href_base: 'deployment'}
+        - { name: 'Monitoring', href_base: 'monitoring'}
+        - { name: 'Cloud', href_base: 'cloud'}
+        - { name: 'Systems Lifecylcle', href_base: 'systems_lifecycle'}
+        - { name: 'Continuous Integration', href_base: 'continous_integration'}
+        - { name: 'Change management', href_base: 'change_management'}
+    - name: Coaching
+      id: coaching
+      sections:
+        - { name: 'Test Driven Development', href_base: 'tdd' }
+        - { name: 'Refactoring', href_base: 'refactoring' }
+        - { name: 'Clean Code', href_base: 'clean_code' }
+        - { name: 'Scalability', href_base: 'scalability' }
+        - { name: 'Agile Development', href_base: 'agile_development' }
+        - { name: 'Clean Code', href_base: 'clean_code' }
+    - name: Consulting
+    - name: Leadership
+  de:
+    - name: Code
+      id: code
+      sections:
+        - { name: 'Backend Systeme', href_base: 'backend_systems' }
+        - { name: 'Code Bereinigung', href_base: 'code_cleanup' }
+        - { name: 'Code Erneuerung', href_base: 'code_rewrite' }
+        - { name: 'Automatisierung', href_base: 'automation'}
+    - name: Operation
+      id: operation
+      sections:
+        - { name: 'Deployment', href_base: 'deployment'}
+        - { name: 'Monitoring', href_base: 'monitoring'}
+        - { name: 'Cloud', href_base: 'cloud'}
+        - { name: 'System Lebenszyklus', href_base: 'systems_lifecycle'}
+        - { name: 'Continuous Integration', href_base: 'continous_integration'}
+        - { name: 'Änderungs management', href_base: 'change_management'}
+    - name: Coaching
+      id: coaching
+      sections:
+        - { name: 'Test Driven Development', href_base: 'tdd' }
+        - { name: 'Refactoring', href_base: 'refactoring' }
+        - { name: 'Clean Code', href_base: 'clean_code' }
+        - { name: 'Skalierbarkeit', href_base: 'scalability' }
+        - { name: 'Agile Entwicklung', href_base: 'agile_development' }
+    - name: Consulting
+    - name: Leadership
 
 markdown: kramdown
 
