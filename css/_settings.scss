@@ -1,19 +1,17 @@
-$font-family:  Helvetica,Arial,sans-serif;
+$font-family:  'Lora', 'Times New Roman', serif;
 
-
-$site-text-color:            #555555;
-$site-background-color: #f4e1d2;
+$site-text-color:            #404040;
+$site-background-color: #fff;
 $list-entry-color:  #site-text-color;
 
-$header-background-color: $site-background-color;
-
+$header-background-color: #F5F5F5;
 
 $link-color:        #505050;
-$link-hover-color: #606060;
-$link-hover-background-color: #e3d0c1;
-$lang-link-color:       #909090;
+$link-hover-color: #0085a1;
+$lang-link-color:       #000;
 
 $service-table-shadow-color: #424242;
-$service-table-header-background-color: #546e7a;
-$service-table-header-color: #ffffff;
 $service-sections-list-separator-color: #B3B9C4;
+$service-table-header-color: #ffffff;
+$service-table-header-background-color: #5cb85c;
+$service-table-entry-background-color: #eee;
