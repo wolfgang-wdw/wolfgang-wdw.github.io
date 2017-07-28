@@ -48,14 +48,14 @@ a {
   transition: font-size 0.3s ease, background-color 0.3s ease;
 }
 
-a:hover {
-  color: $link-hover-color;
-}
-
 a.en, a.de {
   color: $lang-link-color;
   font-weight: normal;
   font-size: 60%;
+}
+
+a:hover {
+  color: $link-hover-color;
 }
 
 a.en:hover, a.de:hover {
