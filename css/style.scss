@@ -35,6 +35,28 @@
     box-shadow: 0px 0px 10px $service-table-shadow-color;
     z-index:100;
   }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    font: 200 20px/1.5 $font-family;
+    border-bottom: 1px solid $service-sections-list-separator-color;
+    padding: 4%;
+  }
+
+  li:last-child {
+    border: none;
+  }
+
+  li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+  }
+
+
   display: table-cell;
   position: relative;
 	z-index: 10;
@@ -42,32 +64,6 @@
   text-align: center;
   width: 25%;
 }
-
-#service-sections-list {
-  width: 100%;
-  margin: 0%;
-}
-
-#service-sections-list ul {
-  list-style-type: none;
-}
-
-#service-sections-list li {
-  font: 200 20px/1.5 $font-family;
-  border-bottom: 1px solid $service-sections-list-separator-color;
-  padding: 4%;
-}
-
-#service-sections-list li:last-child {
-  border: none;
-}
-
-#service-sections-list li a {
-  text-decoration: none;
-  display: block;
-  width: 100%;
-}
-
 
 body {
   font-family: $font-family;
@@ -84,21 +80,21 @@ li {
   color: $list-entry-color;
 }
 
-#header {
+.header {
   padding: 4px;
 }
 
-#header .big {
+.header .big {
   font-size:   160%;
   font-weight: bold;
 }
 
-#header .small {
+.header .small {
   font-size:    90%;
   color:        grey;
 }
 
-#nav {
+.nav {
   padding: 6px;
   font-size:   120%;
   text-align: center;
@@ -120,7 +116,7 @@ a:hover {
 }
 
 
-#footer {
+.footer {
   font-size:    90%;
   color:        grey;
 }

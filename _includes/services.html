@@ -7,17 +7,15 @@
   <div class="table-row">
     {% for service in site.services[page.lang] %}
     <div class="service-table-cell">
-      <div id="service-sections-list">
-        <ul>
-        {% for section in service.sections %}
-          {% assign full_href = '/services/'
-          | append: service.id
-          | append: "/" | append: section.href_base
-          | append: '_' | append: page.lang %}
-          <li><a href='{{ full_href | relative_url }}'>{{ section.name }}</a></li>
-        {% endfor %}
-        </ul>
-      </div>
+      <ul>
+      {% for section in service.sections %}
+        {% assign full_href = '/services/'
+        | append: service.id
+        | append: "/" | append: section.href_base
+        | append: '_' | append: page.lang %}
+        <li><a href='{{ full_href | relative_url }}'>{{ section.name }}</a></li>
+      {% endfor %}
+      </ul>
     </div>
     {% endfor %}
   </div>
