@@ -1,13 +1,17 @@
 $font-family:  Helvetica,Arial,sans-serif;
 
+
 $site-text-color:            #555555;
 $site-background-color: #f4e1d2;
 $list-entry-color:  #site-text-color;
 
+$header-background-color: $site-background-color;
+
+
 $link-color:        #505050;
 $link-hover-color: #606060;
 $link-hover-background-color: #e3d0c1;
-$lang-link-color:       $link-color;
+$lang-link-color:       #909090;
 
 $service-table-shadow-color: #424242;
 $service-table-header-background-color: #546e7a;

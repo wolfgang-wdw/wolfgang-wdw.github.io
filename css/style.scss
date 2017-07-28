@@ -10,8 +10,37 @@
 @import 'settings';
 @import 'header';
 @import 'footer';
-@import 'nav';
 @import 'service-table';
+
+.header-table {
+    display: table;
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0%;
+    box-shadow: 0px 0px 10px $service-table-shadow-color;
+}
+
+.header-table-cell {
+  display: table-cell;
+  position: relative;
+  background-color: $header-background-color;
+  padding: 1%;
+}
+
+.nav-table-cell {
+  padding: 1%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  //padding-left: 10%;
+  //padding-right: auto;
+  width: 75%;
+  background-color: $header-background-color;
+  font-size:   140%;
+}
+
 
 body {
   padding: 1%;
@@ -29,7 +58,7 @@ li {
 }
 
 a {
-  text-decoration: underline #AAA;
+  text-decoration: none;
   color: $link-color;
   -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
   -moz-transition: font-size 0.3s ease, background-color 0.3s ease;

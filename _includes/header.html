@@ -1,27 +1,28 @@
-<div class="nav">
-  {% for item in site.nav[page.lang] %}
-    {% if item.href_base == '' %}
-      {% assign lang_postfix = '' %}
-    {% else %}
-      {% assign lang_postfix = '_' | append: page.lang %}
-    {% endif %}
-    {% assign full_href = '/' | append: item.href_base | append: lang_postfix %}
-    <a href="{{ full_href | relative_url }}">{{ item.title }}</a>
-    {% if forloop.last %}  {% else %} • {% endif %}
-  {% endfor %}
+<div class="header-table">
+  <div class="header-table-cell">
+    <div class="header">
+      <span class='big'>{{ site.title[page.lang] }}</span>
+      <br>
+      <span class='small'>{{ site.subtitle[page.lang] }}</span>
+    </div>
+  </div>
+  <div class="nav-table-cell">
+    {% for item in site.nav[page.lang] %}
+      {% if item.href_base == '' %}
+        {% assign lang_postfix = '' %}
+      {% else %}
+        {% assign lang_postfix = '_' | append: page.lang %}
+      {% endif %}
+      {% assign full_href = '/' | append: item.href_base | append: lang_postfix %}
+      <a href="{{ full_href | relative_url }}">{{ item.title }}</a>
+      {% if forloop.last %}  {% else %} • {% endif %}
+    {% endfor %}
 
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  <span style="float: right;">
-  {% for page in pages %}
-      <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-  {% endfor %}
-  </span>
-</div>
-
-<div class="header">
-  <hr>
-  <span class='big'>{{ site.title[page.lang] }}</span>
-  <br>
-  <span class='small'>{{ site.subtitle[page.lang] }}</span>
-  <hr>
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    <span style="float: right;">
+    {% for page in pages %}
+        <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+    {% endfor %}
+    </span>
+  </div>
 </div>
