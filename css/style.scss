@@ -27,6 +27,17 @@
   position: relative;
   background-color: $header-background-color;
   padding: 1%;
+
+  .big {
+    font-size:   160%;
+    font-weight: bold;
+  }
+
+  .small {
+    font-size:    90%;
+    color:        grey;
+  }
+
 }
 
 .nav-table-cell {
