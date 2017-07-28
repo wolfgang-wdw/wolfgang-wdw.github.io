@@ -86,19 +86,6 @@ body {
   background-color: $site-background-color;
 }
 
-a, a:visited {
-  color: $nav-link-color;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a.service_href, a.service_href:visited {
-  color: $service-link-color;
-}
-
 a.en, a.de {
     color: $lang-link-color;
     font-size: 80%;
@@ -122,8 +109,25 @@ a.en, a.de {
   padding: 6px;
   font-size:   120%;
   text-align: center;
-  background-color: $nav-background-color;
+  //background-color: $nav-background-color;
 }
+
+#nav a {
+  text-decoration: none;
+  color: $nav-link-color;
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+#nav a:hover {
+  //font-size: 120%;
+  background: $service-sections-list-hover-background-color;
+  color: $service-sections-list-hover-color;
+}
+
 
 #footer {
   font-size:    90%;

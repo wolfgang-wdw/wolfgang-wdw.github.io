@@ -14,7 +14,7 @@
           | append: service.id
           | append: "/" | append: section.href_base
           | append: '_' | append: page.lang %}
-          <li><a href='{{ full_href | relative_url }}' class='service_href'>{{ section.name }}</a></li>
+          <li><a href='{{ full_href | relative_url }}'>{{ section.name }}</a></li>
         {% endfor %}
         </ul>
       </div>

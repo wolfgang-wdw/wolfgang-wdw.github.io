@@ -7,7 +7,7 @@ $font-family:  Helvetica,Arial,sans-serif;
 $text-color:            #000000;
 $site-background-color: #f4e1d2;
 $nav-background-color:  #bc5a45;
-$nav-link-color:        #000000;
+$nav-link-color:        #505050;
 $lang-link-color:       $nav-link-color;
 $service-link-color:    $nav-link-color;
 
@@ -16,7 +16,7 @@ $service-table-header-background-color: #546e7a;
 $service-table-header-color: #ffffff;
 
 $service-sections-list-separator-color: #B3B9C4;
-$service-sections-list-entry-color: #909090;
+$service-sections-list-entry-color: $nav-link-color;
 
 $service-sections-list-hover-background-color: #e3d0c1;
-$service-sections-list-hover-color: #808080;
+$service-sections-list-hover-color: #606060;
