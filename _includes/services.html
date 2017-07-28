@@ -1,44 +1,24 @@
-<!-- <div id="fancy_list">
-<ul>
-{% for service in site.services[page.lang] %}
-  <li><b>{{ service.name }}</b></li>
-  <ul>
-  {% for section in service.sections %}
-    {% assign full_href = '/services/'
-    | append: service.id
-    | append: "/" | append: section.href_base
-    | append: '_' | append: page.lang %}
-    <li><a href='{{ full_href | relative_url }}' class='service_href'>{{ section.name }}</a></li>
-  {% endfor %}
-  </ul>
-{% endfor %}
-</ul>
-</div>
- -->
-
- <div class="Table">
-    <div class="Heading">
-        {% for service in site.services[page.lang] %}
-            <div class="Cell" style="background-color: {{ site.service_colors[service.id].header }};">
-                <p>{{ service.name }}</p>
-            </div>
-        {% endfor %}
-    </div>
-    <div class="Row">
-        {% for service in site.services[page.lang] %}
-        <div class="Cell" style="background-color: {{ site.service_colors[service.id].column }};">
-            <div id="fancy_list">
-              <ul>
-              {% for section in service.sections %}
-                {% assign full_href = '/services/'
-                | append: service.id
-                | append: "/" | append: section.href_base
-                | append: '_' | append: page.lang %}
-                <li><a href='{{ full_href | relative_url }}' class='service_href'>{{ section.name }}</a></li>
-              {% endfor %}
-              </ul>
-            </div>
+<div class="Table">
+  {% for service in site.services[page.lang] %}
+        <div class="Cell">
+            <h3 class="service_table_name">{{ service.name }}</h3>
         </div>
-        {% endfor %}
-    </div>
+  {% endfor %}
+  <div class="Row">
+      {% for service in site.services[page.lang] %}
+      <div class="Cell">
+          <div id="service_sections_list">
+            <ul>
+            {% for section in service.sections %}
+              {% assign full_href = '/services/'
+              | append: service.id
+              | append: "/" | append: section.href_base
+              | append: '_' | append: page.lang %}
+              <li><a href='{{ full_href | relative_url }}' class='service_href'>{{ section.name }}</a></li>
+            {% endfor %}
+            </ul>
+          </div>
+      </div>
+      {% endfor %}
+  </div>
 </div>

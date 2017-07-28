@@ -44,6 +44,7 @@ services:
         - { name: 'Backend systems', href_base: 'backend_systems' }
         - { name: 'Code cleanup', href_base: 'code_cleanup' }
         - { name: 'Code rewrite', href_base: 'code_rewrite' }
+        - { name: 'Continuous Integration', href_base: 'continous_integration'}
         - { name: 'Automation', href_base: 'automation'}
     - name: Operation
       id: operation
@@ -52,7 +53,6 @@ services:
         - { name: 'Monitoring', href_base: 'monitoring'}
         - { name: 'Cloud', href_base: 'cloud'}
         - { name: 'Systems Lifecycle', href_base: 'systems_lifecycle'}
-        - { name: 'Continuous Integration', href_base: 'continous_integration'}
         - { name: 'Change management', href_base: 'change_management'}
     - name: Coaching
       id: coaching
@@ -76,6 +76,7 @@ services:
         - { name: 'Backend Systeme', href_base: 'backend_systems' }
         - { name: 'Code Bereinigung', href_base: 'code_cleanup' }
         - { name: 'Code Erneuerung', href_base: 'code_rewrite' }
+        - { name: 'Continuous Integration', href_base: 'continous_integration'}
         - { name: 'Automatisierung', href_base: 'automation'}
     - name: Operation
       id: operation
@@ -84,7 +85,6 @@ services:
         - { name: 'Monitoring', href_base: 'monitoring'}
         - { name: 'Cloud', href_base: 'cloud'}
         - { name: 'System Lebenszyklus', href_base: 'systems_lifecycle'}
-        - { name: 'Continuous Integration', href_base: 'continous_integration'}
         - { name: 'Änderungs management', href_base: 'change_management'}
     - name: Coaching
       id: coaching
