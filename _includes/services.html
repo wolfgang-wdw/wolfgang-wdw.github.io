@@ -1,12 +1,12 @@
-<div class="Table">
+<div class="service-table">
   {% for service in site.services[page.lang] %}
-    <div class="Cell">
-      <h3 class="service_table_name">{{ service.name }}</h3>
+    <div class="service-table-cell">
+      <h3>{{ service.name }}</h3>
     </div>
   {% endfor %}
-  <div class="Row">
+  <div class="table-row">
     {% for service in site.services[page.lang] %}
-    <div class="Cell">
+    <div class="service-table-cell">
       <div id="service-sections-list">
         <ul>
         {% for section in service.sections %}

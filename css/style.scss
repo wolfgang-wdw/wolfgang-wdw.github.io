@@ -9,7 +9,11 @@
 
 @import 'settings';
 
-.Table {
+.table-row {
+    display: table-row;
+}
+
+.service-table {
     display: table;
     width: 90%;
     margin: auto;
@@ -18,15 +22,11 @@
     box-shadow: 1px 1px 10px $service-table-shadow-color;;
 }
 
-.Row {
-    display: table-row;
-}
-
-.Cell {
+.service-table-cell {
   * {
     margin:0; padding: 0
   };
-  h3.service_table_name {
+  h3 {
 		background-color: $service-table-header-background-color;
     color: $service-table-header-color;
 		padding: 5%;
