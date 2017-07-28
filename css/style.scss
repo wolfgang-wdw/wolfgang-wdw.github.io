@@ -55,7 +55,7 @@
 #service-sections-list li {
   font: 200 20px/1.5 $font-family;
   border-bottom: 1px solid $service-sections-list-separator-color;
-  padding: 15px;
+  padding: 4%;
 }
 
 #service-sections-list li:last-child {
@@ -76,8 +76,8 @@
 
 #service-sections-list li a:hover {
   //font-size: 120%;
-  background: $list-hover-background-color;
-  color: $list-hover-color;
+  background: $service-sections-list-hover-background-color;
+  color: $service-sections-list-hover-color;
 }
 
 body {
