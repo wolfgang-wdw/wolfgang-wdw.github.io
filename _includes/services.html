@@ -1,24 +1,24 @@
 <div class="Table">
   {% for service in site.services[page.lang] %}
-        <div class="Cell">
-            <h3 class="service_table_name">{{ service.name }}</h3>
-        </div>
+    <div class="Cell">
+      <h3 class="service_table_name">{{ service.name }}</h3>
+    </div>
   {% endfor %}
   <div class="Row">
-      {% for service in site.services[page.lang] %}
-      <div class="Cell">
-          <div id="service_sections_list">
-            <ul>
-            {% for section in service.sections %}
-              {% assign full_href = '/services/'
-              | append: service.id
-              | append: "/" | append: section.href_base
-              | append: '_' | append: page.lang %}
-              <li><a href='{{ full_href | relative_url }}' class='service_href'>{{ section.name }}</a></li>
-            {% endfor %}
-            </ul>
-          </div>
+    {% for service in site.services[page.lang] %}
+    <div class="Cell">
+      <div id="service_sections_list">
+        <ul>
+        {% for section in service.sections %}
+          {% assign full_href = '/services/'
+          | append: service.id
+          | append: "/" | append: section.href_base
+          | append: '_' | append: page.lang %}
+          <li><a href='{{ full_href | relative_url }}' class='service_href'>{{ section.name }}</a></li>
+        {% endfor %}
+        </ul>
       </div>
-      {% endfor %}
+    </div>
+    {% endfor %}
   </div>
 </div>
