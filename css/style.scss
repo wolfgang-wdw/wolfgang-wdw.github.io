@@ -14,13 +14,18 @@
 @import 'service-table';
 
 body {
+  padding: 1%;
   font-family: $font-family;
   color:        $site-text-color;
   background-color: $site-background-color;
 }
 
+ul {
+  padding-left: 1%;
+}
+
 li {
-  color: $list-entry-color;
+  margin: 0.7%;
 }
 
 a {
