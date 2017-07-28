@@ -13,17 +13,14 @@
   position: relative;
   background-color: $header-background-color;
   padding: 1%;
-
   .big {
-    font-size:   160%;
+    font-size:   150%;
     font-weight: bold;
   }
-
   .small {
-    font-size:    90%;
+    font-size:    80%;
     color:        grey;
   }
-
 }
 
 .nav-table-cell {
@@ -31,7 +28,6 @@
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  width: 75%;
   background-color: $header-background-color;
   color: $link-color;
   font-size:   140%;
