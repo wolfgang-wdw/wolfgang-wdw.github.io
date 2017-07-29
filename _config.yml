@@ -22,86 +22,93 @@ nav:
     - { title: 'Blog', href_base: 'blog'}
     - { title: 'Kontakt', href_base: 'contact' }
 
-service_colors:
+service_links:
   code:
-    header: "#303030"
-    column: "#383838"
+    - code_cleanup
+    - code_rewrite
+    - continous_integration
+    - automation
   operation:
-    header: "#404040"
-    column: "#484848"
+    - deployment
+    - monitoring
+    - cloud
+    - systems_lifecycle
+    - change_management
   coaching:
-    header: "#505050"
-    column: "#585858"
+    - tdd
+    - refactoring
+    - clean_code
+    - agile_development
+    - scalability
   consulting:
-    header: "#606060"
-    column: "#686868"
+    - budgeting
+    - tools_evaluation
+    - code_review
+    - automation
 
 services:
   en:
-    - name: Code
+    - name: Programming
       id: code
       sections:
-        - { name: 'Backend systems', href_base: 'backend_systems' }
-        - { name: 'Code cleanup', href_base: 'code_cleanup' }
-        - { name: 'Code rewrite', href_base: 'code_rewrite' }
-        - { name: 'Continuous Integration', href_base: 'continous_integration'}
-        - { name: 'Automation', href_base: 'automation'}
-    - name: Operation
+        - Code cleanup
+        - Code rewrite
+        - Continuous Integration
+        - Automation
+    - name: DevOps
       id: operation
       sections:
-        - { name: 'Deployment', href_base: 'deployment'}
-        - { name: 'Monitoring', href_base: 'monitoring'}
-        - { name: 'Cloud', href_base: 'cloud'}
-        - { name: 'Systems Lifecycle', href_base: 'systems_lifecycle'}
-        - { name: 'Change management', href_base: 'change_management'}
+        - Deployment
+        - Monitoring
+        - Cloud
+        - Systems Lifecycle
+        - Change management
     - name: Coaching
       id: coaching
       sections:
-        - { name: 'Test Driven Development', href_base: 'tdd' }
-        - { name: 'Refactoring', href_base: 'refactoring' }
-        - { name: 'Clean Code', href_base: 'clean_code' }
-        - { name: 'Agile Development', href_base: 'agile_development' }
-        - { name: 'Scalability', href_base: 'scalability' }
+        - Test Driven Development
+        - Refactoring
+        - Clean Code
+        - Agile Development
+        - Scalability
     - name: Consulting
       id: consulting
       sections:
-        - { name: 'Budgeting', href_base: 'budgeting'}
-        - { name: 'Tools Evaluation', href_base: 'tools_evaluation'}
-        - { name: 'Code Review', href_base: 'code_review'}
-        - { name: 'Automation', href_base: 'automation'}
+        - Budgeting
+        - Tools Evaluation
+        - Code Review
+        - Automation
   de:
-    - name: Code
+    - name: Programmierung
       id: code
       sections:
-        - { name: 'Backend Systeme', href_base: 'backend_systems' }
-        - { name: 'Code Bereinigung', href_base: 'code_cleanup' }
-        - { name: 'Code Erneuerung', href_base: 'code_rewrite' }
-        - { name: 'Continuous Integration', href_base: 'continous_integration'}
-        - { name: 'Automatisierung', href_base: 'automation'}
-    - name: Operation
+        - Code Bereinigung
+        - Code Erneuerung
+        - Continuous Integration
+        - Automatisierung
+    - name: DevOps
       id: operation
       sections:
-        - { name: 'Deployment', href_base: 'deployment'}
-        - { name: 'Monitoring', href_base: 'monitoring'}
-        - { name: 'Cloud', href_base: 'cloud'}
-        - { name: 'System Lebenszyklus', href_base: 'systems_lifecycle'}
-        - { name: 'Änderungs management', href_base: 'change_management'}
+        - Deployment
+        - Monitoring
+        - Cloud
+        - System Lebenszyklus
+        - Änderungs management
     - name: Coaching
       id: coaching
       sections:
-        - { name: 'Test Driven Development', href_base: 'tdd' }
-        - { name: 'Refactoring', href_base: 'refactoring' }
-        - { name: 'Clean Code', href_base: 'clean_code' }
-        - { name: 'Skalierbarkeit', href_base: 'scalability' }
-        - { name: 'Agile Entwicklung', href_base: 'agile_development' }
+        - Test Driven Development
+        - Refactoring
+        - Clean Code
+        - Skalierbarkeit
+        - Agile Entwicklung
     - name: Consulting
       id: consulting
       sections:
-        - { name: 'Budgetierung', href_base: 'budgeting'}
-        - { name: 'Tools Evaluation', href_base: 'tools_evaluation'}
-        - { name: 'Code Review', href_base: 'code_review'}
-        - { name: 'Automation', href_base: 'automation'}
-
+        - Budgetierung
+        - Tools Evaluation
+        - Code Review
+        - Automation
 
 markdown: kramdown
 sass:

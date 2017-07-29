@@ -8,12 +8,15 @@
     {% for service in site.services[page.lang] %}
     <div class="service-table-cell">
       <ul>
-      {% for section in service.sections %}
+      {% assign num_sections = service.sections | size %}
+      {% for i in (0..num_sections) %}
+        {% assign section = service.sections[i] %}
+        {% assign href_base = site.service_links[service.id][i] %}
         {% assign full_href = '/services/'
         | append: service.id
-        | append: "/" | append: section.href_base
+        | append: "/" | append: href_base
         | append: '_' | append: page.lang %}
-        <li><a href='{{ full_href | relative_url }}'>{{ section.name }}</a></li>
+        <li><a href='{{ full_href | relative_url }}'>{{ section }}</a></li>
       {% endfor %}
       </ul>
     </div>
