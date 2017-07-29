@@ -22,93 +22,94 @@ nav:
     - { title: 'Blog', href_base: 'blog'}
     - { title: 'Kontakt', href_base: 'contact' }
 
-service_links:
-  code:
-    - code_cleanup
-    - code_rewrite
-    - continous_integration
-    - automation
-  operation:
-    - deployment
-    - monitoring
-    - cloud
-    - systems_lifecycle
-    - change_management
-  coaching:
-    - tdd
-    - refactoring
-    - clean_code
-    - agile_development
-    - scalability
-  consulting:
-    - budgeting
-    - tools_evaluation
-    - code_review
-    - automation
-
 services:
-  en:
-    - name: Programming
-      id: code
-      sections:
-        - Code cleanup
-        - Code rewrite
-        - Continuous Integration
-        - Automation
-    - name: DevOps
-      id: operation
-      sections:
-        - Deployment
-        - Monitoring
-        - Cloud
-        - Systems Lifecycle
-        - Change management
-    - name: Coaching
-      id: coaching
-      sections:
-        - Test Driven Development
-        - Refactoring
-        - Clean Code
-        - Agile Development
-        - Scalability
-    - name: Consulting
-      id: consulting
-      sections:
-        - Budgeting
-        - Tools Evaluation
-        - Code Review
-        - Automation
-  de:
-    - name: Programmierung
-      id: code
-      sections:
-        - Code Bereinigung
-        - Code Erneuerung
-        - Continuous Integration
-        - Automatisierung
-    - name: DevOps
-      id: operation
-      sections:
-        - Deployment
-        - Monitoring
-        - Cloud
-        - System Lebenszyklus
-        - Änderungs management
-    - name: Coaching
-      id: coaching
-      sections:
-        - Test Driven Development
-        - Refactoring
-        - Clean Code
-        - Skalierbarkeit
-        - Agile Entwicklung
-    - name: Consulting
-      id: consulting
-      sections:
-        - Budgetierung
-        - Tools Evaluation
-        - Code Review
-        - Automation
+  languages:
+    en:
+      - name: Programming
+        id: code
+        sections:
+          - Code cleanup
+          - Code rewrite
+          - Continuous Integration
+          - Automation
+      - name: DevOps
+        id: operation
+        sections:
+          - Deployment
+          - Monitoring
+          - Cloud
+          - Systems Lifecycle
+          - Change management
+      - name: Coaching
+        id: coaching
+        sections:
+          - Test Driven Development
+          - Refactoring
+          - Clean Code
+          - Agile Development
+          - Scalability
+      - name: Consulting
+        id: consulting
+        sections:
+          - Budgeting
+          - Tools Evaluation
+          - Code Review
+          - Automation
+    de:
+      - name: Programmierung
+        id: code
+        sections:
+          - Code Bereinigung
+          - Code Erneuerung
+          - Continuous Integration
+          - Automatisierung
+      - name: DevOps
+        id: operation
+        sections:
+          - Deployment
+          - Monitoring
+          - Cloud
+          - System Lebenszyklus
+          - Änderungs management
+      - name: Coaching
+        id: coaching
+        sections:
+          - Test Driven Development
+          - Refactoring
+          - Clean Code
+          - Skalierbarkeit
+          - Agile Entwicklung
+      - name: Consulting
+        id: consulting
+        sections:
+          - Budgetierung
+          - Tools Evaluation
+          - Code Review
+          - Automation
+  links:
+    code:
+      - code_cleanup
+      - code_rewrite
+      - continous_integration
+      - automation
+    operation:
+      - deployment
+      - monitoring
+      - cloud
+      - systems_lifecycle
+      - change_management
+    coaching:
+      - tdd
+      - refactoring
+      - clean_code
+      - agile_development
+      - scalability
+    consulting:
+      - budgeting
+      - tools_evaluation
+      - code_review
+      - automation
+
 
 markdown: kramdown
 sass:

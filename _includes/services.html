@@ -1,17 +1,17 @@
 <div class="service-table">
-  {% for service in site.services[page.lang] %}
+  {% for service in site.services.languages[page.lang] %}
     <div class="service-table-cell">
       <h3>{{ service.name }}</h3>
     </div>
   {% endfor %}
   <div class="table-row">
-    {% for service in site.services[page.lang] %}
+    {% for service in site.services.languages[page.lang] %}
     <div class="service-table-cell">
       <ul>
       {% assign num_sections = service.sections | size %}
       {% for i in (0..num_sections) %}
         {% assign section = service.sections[i] %}
-        {% assign href_base = site.service_links[service.id][i] %}
+        {% assign href_base = site.services.links[service.id][i] %}
         {% assign full_href = '/services/'
         | append: service.id
         | append: "/" | append: href_base
