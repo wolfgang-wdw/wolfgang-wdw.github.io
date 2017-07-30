@@ -8,7 +8,6 @@
 ---
 
 @import 'settings';
-@import 'header';
 @import 'footer';
 @import 'service-grid';
 @import "bootstrap";
@@ -50,24 +49,10 @@ ul {
   padding-left: 1%;
 }
 
-a {
-  text-decoration: none;
-  color: $link-color;
-  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
-  transition: font-size 0.3s ease, background-color 0.3s ease;
-}
-
 a.en, a.de {
   color: $lang-link-color;
   font-weight: bold;
   font-size: 100%;
-}
-
-a:hover {
-  color: $link-hover-color;
 }
 
 a.en:hover, a.de:hover {
