@@ -36,11 +36,10 @@ services:
       - name: DevOps
         id: operation
         sections:
-          - Deployment
-          - Release Management
-          - Monitoring
-          - Scaling
+          - Deployment # includes dev/stage/live
           - Load Testing
+          - Scaling
+          - Monitoring
           - Networking
       - name: Coaching
         id: coaching
@@ -49,13 +48,15 @@ services:
           - Refactoring
           - Clean Code
           - Agile Planning
+          - Development Tools
       - name: Consulting
         id: consulting
         sections:
-          - DevOps
           - Feasibility
+          - DevOps
           - Systems Evaluation
-          - Tools Evaluation
+          - Code Review
+          - Vendor Evaluation
           - Scalability
     de:
       - name: Programmierung
