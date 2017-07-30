@@ -48,7 +48,7 @@ services:
           - Refactoring
           - Clean Code
           - Agile Planning
-          - Development Tools
+          - Developer Tools
       - name: Consulting
         id: consulting
         sections:
@@ -56,39 +56,42 @@ services:
           - DevOps
           - Systems Evaluation
           - Code Review
-          - Vendor Evaluation
+          - Vendor Choice
           - Scalability
     de:
       - name: Programmierung
         id: code
         sections:
-          - Code Bereinigung
-          - Code Erneuerung
-          - Continuous Integration
+          - Neue Systeme
+          - Bestehende Systems # extend, cleaup, rewrite, maintain
+          - Legacy Code
           - Automatisierung
+          - Tools
       - name: DevOps
         id: operation
         sections:
-          - Deployment
+          - Deployment # includes dev/stage/live
+          - Last Tests
+          - Skalierung
           - Monitoring
-          - Cloud
-          - System Lebenszyklus
-          - Änderungs management
+          - Networking
       - name: Coaching
         id: coaching
         sections:
           - Test Driven Development
           - Refactoring
           - Clean Code
-          - Skalierbarkeit
-          - Agile Entwicklung
+          - Agile Planung
+          - Entwickler Tools
       - name: Consulting
         id: consulting
         sections:
-          - Budgetierung
-          - Tools Evaluation
+          - Machbarkeit
+          - DevOps
+          - System Bewertung
           - Code Review
-          - Automation
+          - Anbieter Auswahl
+          - Skalierbarkeit
   links:
     code:
       - code_cleanup
