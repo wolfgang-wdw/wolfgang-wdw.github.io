@@ -21,6 +21,12 @@
         <li{{ extra }}><a href="{{ full_href | relative_url }}">{{ item.title }}</a></li>
       {% endfor %}
     </ul>
+    <ul class="nav navbar-nav navbar-right">
+      {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+      {% for page in pages %}
+          <li><a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a></li>
+      {% endfor %}
+    </ul>
   </div>
 </nav>
 <div class="header-table">
@@ -28,13 +34,5 @@
     <span class='big'>{{ site.title[page.lang] }}</span>
     <br>
     <span class='small'>{{ site.subtitle[page.lang] }}</span>
-  </div>
-  <div class="header-lang-cell">
-    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-    <span style="float: right;">
-    {% for page in pages %}
-        <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-    {% endfor %}
-    </span>
   </div>
 </div>

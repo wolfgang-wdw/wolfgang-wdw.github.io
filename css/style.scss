@@ -18,6 +18,10 @@
   background-color: $header-background-color;
 }
 
+.navbar-right {
+  margin-right: 10px;
+}
+
 body {
   padding: 1%;
   padding-left: 2%;
@@ -56,7 +60,7 @@ a {
 a.en, a.de {
   color: $lang-link-color;
   font-weight: normal;
-  font-size: 60%;
+  font-size: 100%;
 }
 
 a:hover {
