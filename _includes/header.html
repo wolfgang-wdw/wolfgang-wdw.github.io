@@ -1,19 +1,4 @@
-<div class="header-table">
-  <div class="header-table-cell">
-    <span class='big'>{{ site.title[page.lang] }}</span>
-    <br>
-    <span class='small'>{{ site.subtitle[page.lang] }}</span>
-  </div>
-  <div class="nav-table-cell">
-    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-    <span style="float: right;">
-    {% for page in pages %}
-        <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-    {% endfor %}
-    </span>
-  </div>
-</div>
-<ul class="nav nav-tabs">
+<ul class="nav nav-pills">
   {% for item in site.nav[page.lang] %}
     {% if item.href_base == '' %}
       {% assign lang_postfix = '' %}
@@ -34,3 +19,18 @@
     <li{{ extra }}><a href="{{ full_href | relative_url }}">{{ item.title }}</a></li>
   {% endfor %}
 </ul>
+<div class="header-table">
+  <div class="header-table-cell">
+    <span class='big'>{{ site.title[page.lang] }}</span>
+    <br>
+    <span class='small'>{{ site.subtitle[page.lang] }}</span>
+  </div>
+  <div class="nav-table-cell">
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    <span style="float: right;">
+    {% for page in pages %}
+        <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+    {% endfor %}
+    </span>
+  </div>
+</div>
