@@ -1,8 +1,8 @@
-<div class="container service-table">
+<div class="container service-grid">
   <div class="row">
     {% for service in site.services.languages[page.lang] %}
     <div class="col-sm-3">
-      <div class="service-table-cell">
+      <div class="service-grid-column">
         <h3>{{ service.name }}</h3>
         <ul>
         {% assign max_section_index = service.sections | size | minus: 1 %}
