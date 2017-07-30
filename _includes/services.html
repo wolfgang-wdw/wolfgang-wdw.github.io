@@ -1,27 +1,29 @@
-<div class="service-table">
-  <div class="table-row">
-    {% for service in site.services.languages[page.lang] %}
-      <div class="service-table-cell">
-        <h3>{{ service.name }}</h3>
-      </div>
-    {% endfor %}
-  </div>
-  <div class="table-row">
-    {% for service in site.services.languages[page.lang] %}
-    <div class="service-table-cell">
-      <ul>
-      {% assign max_section_index = service.sections | size | minus: 1 %}
-      {% for i in (0..max_section_index) %}
-        {% assign section = service.sections[i] %}
-        {% assign href_base = site.services.links[service.id][i] %}
-        {% assign full_href = '/services/'
-        | append: service.id
-        | append: "/" | append: href_base
-        | append: '_' | append: page.lang %}
-        <li><a href='{{ full_href | relative_url }}'>{{ section }}</a></li>
+<div class="container-fluid">
+  <div class="service-table">
+    <div class="table-row">
+      {% for service in site.services.languages[page.lang] %}
+        <div class="service-table-cell">
+          <h3>{{ service.name }}</h3>
+        </div>
       {% endfor %}
-      </ul>
     </div>
-    {% endfor %}
+    <div class="table-row">
+      {% for service in site.services.languages[page.lang] %}
+      <div class="service-table-cell">
+        <ul>
+        {% assign max_section_index = service.sections | size | minus: 1 %}
+        {% for i in (0..max_section_index) %}
+          {% assign section = service.sections[i] %}
+          {% assign href_base = site.services.links[service.id][i] %}
+          {% assign full_href = '/services/'
+          | append: service.id
+          | append: "/" | append: href_base
+          | append: '_' | append: page.lang %}
+          <li><a href='{{ full_href | relative_url }}'>{{ section }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
