@@ -28,33 +28,35 @@ services:
       - name: Programming
         id: code
         sections:
-          - Code cleanup
-          - Code rewrite
-          - Continuous Integration
+          - New Systems
+          - Existing Systems # extend, cleaup, rewrite, maintain
+          - Legacy Code
           - Automation
+          - Tools
       - name: DevOps
         id: operation
         sections:
           - Deployment
+          - Release Management
           - Monitoring
-          - Cloud
-          - Systems Lifecycle
-          - Change management
+          - Scaling
+          - Load Testing
+          - Networking
       - name: Coaching
         id: coaching
         sections:
           - Test Driven Development
           - Refactoring
           - Clean Code
-          - Agile Development
-          - Scalability
+          - Agile Planning
       - name: Consulting
         id: consulting
         sections:
-          - Budgeting
+          - DevOps
+          - Feasibility
+          - Systems Evaluation
           - Tools Evaluation
-          - Code Review
-          - Automation
+          - Scalability
     de:
       - name: Programmierung
         id: code
