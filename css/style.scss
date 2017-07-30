@@ -24,9 +24,6 @@
   box-shadow: 0px 0px 10px $service-table-shadow-color;
 }
 
-.navbar-right {
-  margin-right: 10px;
-}
 
 body {
   padding: 1%;
@@ -65,7 +62,7 @@ a {
 
 a.en, a.de {
   color: $lang-link-color;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 100%;
 }
 

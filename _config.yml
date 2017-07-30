@@ -8,6 +8,9 @@ subtitle:
   en: 'Backend Developer. Some extras included.'
   de: 'Backend Entwickler. Mit ein paar Extras'
 
+languages:
+  en: 'English'
+  de: 'Deutsch'
 nav:
   en:
     - { title: 'Home', href_base: '', ref: 'home' }
@@ -63,7 +66,7 @@ services:
         id: code
         sections:
           - Neue Systeme
-          - Bestehende Systems # extend, cleaup, rewrite, maintain
+          - Bestehende Systeme # extend, cleaup, rewrite, maintain
           - Legacy Code
           - Automatisierung
           - Tools

@@ -6,7 +6,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">{{ site.title[page.lang] }}</a>
+      <a class="navbar-brand" href="/">{{ site.title[page.lang] }}</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -32,8 +32,10 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-        {% for page in pages %}
-            <li><a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a></li>
+        {% for p in pages %}
+            {% if page.lang != p.lang %}
+              <li><a href="{{ p.url }}" class="{{ p.lang }}">{{ site.languages[p.lang] }}</a></li>
+              {% endif %}
         {% endfor %}
       </ul>
     </div>
