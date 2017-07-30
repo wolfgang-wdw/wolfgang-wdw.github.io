@@ -1,9 +1,11 @@
 <div class="service-table">
-  {% for service in site.services.languages[page.lang] %}
-    <div class="service-table-cell">
-      <h3>{{ service.name }}</h3>
-    </div>
-  {% endfor %}
+  <div class="table-row">
+    {% for service in site.services.languages[page.lang] %}
+      <div class="service-table-cell">
+        <h3>{{ service.name }}</h3>
+      </div>
+    {% endfor %}
+  </div>
   <div class="table-row">
     {% for service in site.services.languages[page.lang] %}
     <div class="service-table-cell">
