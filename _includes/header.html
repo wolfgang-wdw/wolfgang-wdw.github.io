@@ -1,24 +1,28 @@
-<ul class="nav nav-pills">
-  {% for item in site.nav[page.lang] %}
-    {% if item.href_base == '' %}
-      {% assign lang_postfix = '' %}
-    {% else %}
-      {% assign lang_postfix = '_' | append: page.lang %}
-    {% endif %}
-    {% assign full_href = '/' | append: item.href_base | append: lang_postfix %}
-    {% if item.ref %}
-      {% assign item_ref = item.ref %}
-    {% else %}
-      {% assign item_ref = item.href_base %}
-    {% endif %}
-    {% if page.ref == item_ref %}
-      {% assign extra = " class='active'" %}
-    {% else %}
-      {% assign extra = "" %}
-    {% endif %}
-    <li{{ extra }}><a href="{{ full_href | relative_url }}">{{ item.title }}</a></li>
-  {% endfor %}
-</ul>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      {% for item in site.nav[page.lang] %}
+        {% if item.href_base == '' %}
+          {% assign lang_postfix = '' %}
+        {% else %}
+          {% assign lang_postfix = '_' | append: page.lang %}
+        {% endif %}
+        {% assign full_href = '/' | append: item.href_base | append: lang_postfix %}
+        {% if item.ref %}
+          {% assign item_ref = item.ref %}
+        {% else %}
+          {% assign item_ref = item.href_base %}
+        {% endif %}
+        {% if page.ref == item_ref %}
+          {% assign extra = " class='active'" %}
+        {% else %}
+          {% assign extra = "" %}
+        {% endif %}
+        <li{{ extra }}><a href="{{ full_href | relative_url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
 <div class="header-table">
   <div class="header-title-cell">
     <span class='big'>{{ site.title[page.lang] }}</span>

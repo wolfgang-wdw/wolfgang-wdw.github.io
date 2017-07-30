@@ -7,11 +7,16 @@
 #       style:    expanded
 ---
 
-@import "bootstrap";
 @import 'settings';
 @import 'header';
 @import 'footer';
 @import 'service-grid';
+@import "bootstrap";
+
+.navbar {
+  margin-bottom: 10px;
+  background-color: $header-background-color;
+}
 
 body {
   padding: 1%;
@@ -24,6 +29,7 @@ body {
   position: relative;
 }
 
+
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
@@ -35,10 +41,6 @@ p {
 
 ul {
   padding-left: 1%;
-}
-
-li {
-  margin: 0.7%;
 }
 
 a {
