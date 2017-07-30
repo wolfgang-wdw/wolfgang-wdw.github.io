@@ -20,12 +20,12 @@
   {% endfor %}
 </ul>
 <div class="header-table">
-  <div class="header-table-cell">
+  <div class="header-title-cell">
     <span class='big'>{{ site.title[page.lang] }}</span>
     <br>
     <span class='small'>{{ site.subtitle[page.lang] }}</span>
   </div>
-  <div class="nav-table-cell">
+  <div class="header-lang-cell">
     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
     <span style="float: right;">
     {% for page in pages %}
