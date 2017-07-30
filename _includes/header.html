@@ -1,5 +1,8 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">{{ site.title[page.lang] }}</a>
+    </div>
     <ul class="nav navbar-nav">
       {% for item in site.nav[page.lang] %}
         {% if item.href_base == '' %}
@@ -29,10 +32,3 @@
     </ul>
   </div>
 </nav>
-<div class="header-table">
-  <div class="header-title-cell">
-    <span class='big'>{{ site.title[page.lang] }}</span>
-    <br>
-    <span class='small'>{{ site.subtitle[page.lang] }}</span>
-  </div>
-</div>
