@@ -1,15 +1,9 @@
-<div class="container">
-  <div class="service-table">
-    <div class="table-row">
-      {% for service in site.services.languages[page.lang] %}
-        <div class="service-table-cell">
-          <h3>{{ service.name }}</h3>
-        </div>
-      {% endfor %}
-    </div>
-    <div class="table-row">
-      {% for service in site.services.languages[page.lang] %}
+<div class="container service-table">
+  <div class="row">
+    {% for service in site.services.languages[page.lang] %}
+    <div class="col-sm-3">
       <div class="service-table-cell">
+        <h3>{{ service.name }}</h3>
         <ul>
         {% assign max_section_index = service.sections | size | minus: 1 %}
         {% for i in (0..max_section_index) %}
@@ -23,7 +17,8 @@
         {% endfor %}
         </ul>
       </div>
-      {% endfor %}
     </div>
-  </div>
+  {% endfor %}
+</div>
+
 </div>
