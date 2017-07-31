@@ -110,13 +110,13 @@ services:
       - refactoring
       - clean_code
       - agile_planning
-      - developer tools
+      - developer_tools
     consulting:
       - feasibility
       - devops
       - systems_evaluation
-      - code review
-      - vendeor choice
+      - code_review
+      - vendeor_choice
       - scalability
 
 markdown: kramdown
