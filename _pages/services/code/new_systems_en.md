@@ -6,6 +6,9 @@ permalink: "/services/code/new_systems_en/"
 ref: services_code_new_systems
 ---
 # {{ page.title }}
+## Coming soon!
+
+<!-- # {{ page.title }}
 
 What is a "backend system", anyway? Broadly speaking, it is everything that lies behind the curtain of your web site, mobile game, not mobile game, or anything else that interacts with a user and is connected to the internet.
 The backend is usually broken up into a couple of more or less orthogonal services. For example:
@@ -39,4 +42,4 @@ Tooling/Deployment:
 - AWS command line API scripting
 - Shell, Python, Ruby, Perl, NodeJS, whatever gets the job done
 
-Let's talk about what you want to have happen. Then we can decide on what technologies are suitable.
+Let's talk about what you want to have happen. Then we can decide on what technologies are suitable. -->
