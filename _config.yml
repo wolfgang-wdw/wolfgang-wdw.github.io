@@ -74,8 +74,8 @@ services:
           - Deployment # includes dev/stage/live
           - Last Tests
           - Skalierung
-          - Monitoring
-          - Networking
+          - Überwachung
+          - Vernetzung
       - name: Coaching
         id: coaching
         sections:
@@ -119,12 +119,13 @@ services:
       - vendeor choice
       - scalability
 
-
 markdown: kramdown
+
 sass:
   sass_dir: css
   style:    expanded
+
 exclude:
-- README.md
-- LICENSE.md
+  - README.md
+  - LICENSE.md
 include: ['_pages']
