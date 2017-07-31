@@ -11,6 +11,7 @@ subtitle:
 languages:
   en: 'English'
   de: 'Deutsch'
+
 nav:
   en:
     - { title: 'Home', href_base: '', ref: 'home' }
@@ -58,7 +59,7 @@ services:
           - DevOps
           - Systems Evaluation
           - Code Review
-          - Vendor Choice
+          - Vendor Selection
           - Scalability
     de:
       - name: Programmierung
@@ -89,7 +90,7 @@ services:
         sections:
           - Machbarkeit
           - DevOps
-          - System Bewertung
+          - System-Auswertung
           - Code Review
           - Anbieter Auswahl
           - Skalierbarkeit
@@ -116,7 +117,7 @@ services:
       - devops
       - systems_evaluation
       - code_review
-      - vendeor_choice
+      - vendor_selection
       - scalability
 
 markdown: kramdown
