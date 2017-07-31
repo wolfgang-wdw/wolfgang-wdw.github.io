@@ -34,8 +34,7 @@ services:
           - New Systems
           - Existing Systems # extend, cleaup, rewrite, maintain
           - Legacy Code
-          - Automation
-          - Tools
+          - Tooling # Automation for all kinds of things, but also GUI tools, etc
       - name: DevOps
         id: operation
         sections:
@@ -68,8 +67,7 @@ services:
           - Neue Systeme
           - Bestehende Systeme # extend, cleaup, rewrite, maintain
           - Legacy Code
-          - Automatisierung
-          - Tools
+          - Werkzeuge
       - name: DevOps
         id: operation
         sections:
@@ -98,27 +96,28 @@ services:
   links:
     code:
       - new_systems
-      - code_cleanup
-      - code_rewrite
-      - continous_integration
-      - automation
+      - existing_systems
+      - legacy_code
+      - tooling
     operation:
       - deployment
+      - load_testing
+      - scaling
       - monitoring
-      - cloud
-      - systems_lifecycle
-      - change_management
+      - networking
     coaching:
       - tdd
       - refactoring
       - clean_code
-      - agile_development
-      - scalability
+      - agile_planning
+      - developer tools
     consulting:
-      - budgeting
-      - tools_evaluation
-      - code_review
-      - automation
+      - feasibility
+      - devops
+      - systems_evaluation
+      - code review
+      - vendeor choice
+      - scalability
 
 
 markdown: kramdown
