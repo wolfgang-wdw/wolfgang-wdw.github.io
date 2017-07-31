@@ -1,13 +1,6 @@
 ###########
 # site.title
 
-title:
-  en: 'Wolfgang Deutsch•Work'
-  de: 'Wolfgang Deutsch•Work'
-subtitle:
-  en: 'Backend Developer. Some extras included.'
-  de: 'Backend Entwickler. Mit ein paar Extras'
-
 strings:
   under_construction_msg:
     en: 'Site under construction'
@@ -15,6 +8,10 @@ strings:
   language:
     en: 'English'
     de: 'Deutsch'
+  site_title:
+    en: 'Wolfgang Deutsch•Work'
+    de: 'Wolfgang Deutsch•Work'
+
 nav:
   en:
     - { title: 'Home', href_base: '', ref: 'home' }

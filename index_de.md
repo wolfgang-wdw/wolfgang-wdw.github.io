@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Hallo
+title:  Start
 lang: de
 ref: home
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Hello
+title:  Home
 lang: en
 ref: home
 ---
