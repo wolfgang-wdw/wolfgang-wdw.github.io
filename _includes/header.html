@@ -34,7 +34,7 @@
         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
         {% for p in pages %}
             {% if page.lang != p.lang %}
-              <li><a href="{{ p.url }}" class="{{ p.lang }}">{{ site.languages[p.lang] }}</a></li>
+              <li><a href="{{ p.url }}" class="{{ p.lang }}">{{ site.strings.language[p.lang] }}</a></li>
               {% endif %}
         {% endfor %}
       </ul>

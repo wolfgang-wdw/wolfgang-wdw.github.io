@@ -8,10 +8,13 @@ subtitle:
   en: 'Backend Developer. Some extras included.'
   de: 'Backend Entwickler. Mit ein paar Extras'
 
-languages:
-  en: 'English'
-  de: 'Deutsch'
-
+strings:
+  under_construction_msg:
+    en: 'Site under construction'
+    de: 'Webseite im Aufbau'
+  language:
+    en: 'English'
+    de: 'Deutsch'
 nav:
   en:
     - { title: 'Home', href_base: '', ref: 'home' }

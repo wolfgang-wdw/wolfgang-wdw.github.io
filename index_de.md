@@ -4,14 +4,8 @@ title:  Hallo
 lang: de
 ref: home
 ---
-## Ein paar schnelle Fakten
+### Über mich und meine Arbeit
 - Ich bin ein unabhängiger Software Entwickler in Wien, Österreich.
 - Ich kann deine backend systeme bauen, deployen, erhalten und betreiben.
 - Ich benutze "test driven development" und automatisierte Tests wo immer es geht.
 - Ich weiss ein bisschen etwas über Spieleentwicklung.
-
-<!-- ## What makes me tick
-- A manifesto of sorts
-- People who inspire me
-- Books that inspire me
-- Games that inspire me -->
