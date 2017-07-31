@@ -126,3 +126,5 @@ exclude:
   - README.md
   - LICENSE.md
 include: ['_pages']
+
+google_analytics: UA-103674705-1
