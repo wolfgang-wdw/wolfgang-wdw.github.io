@@ -1,0 +1,12 @@
+<div class="container-fluid">
+<table class="table">
+    <tbody>
+      {% for c in site.contact %}
+      <tr>
+        <td style="width: 10%;"><b>{{ c.name }}</b></td>
+        <td><a href="{{c.link}}">{{ c.link-text }}</a></td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>

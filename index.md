@@ -4,7 +4,7 @@ title:  Home
 lang: en
 ref: home
 ---
-### Who is this guy?
+### Who am I?
 - I am an independent Software Developer working and living in Vienna, Austria
 - I can **create**, **maintain**, **deploy** and **operate** your backend systems.
 - I use test driven development and automated testing wherever I can.

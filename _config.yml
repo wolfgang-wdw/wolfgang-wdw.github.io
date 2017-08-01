@@ -1,6 +1,14 @@
 ###########
 # site.title
 
+contact:
+  - name: Email
+    link: mailto:wolfgang@wolfgangdeutsch.work
+    link-text: "wolfgang at wolfgangdeutsch dot work"
+  - name: Twitter
+    link: https://twitter.com/wolfgangwork
+    link-text: "@wolfgangwork"
+
 strings:
   under_construction_msg:
     en: 'Site under construction'
