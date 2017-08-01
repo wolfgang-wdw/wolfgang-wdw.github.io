@@ -104,11 +104,10 @@ services:
       - tdd
       - refactoring
       - clean_code
+      - devops
       - agile_planning
-      - developer_tools
     consulting:
       - feasibility
-      - devops
       - systems_evaluation
       - code_review
       - vendor_selection
