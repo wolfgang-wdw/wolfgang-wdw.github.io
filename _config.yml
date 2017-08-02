@@ -5,6 +5,9 @@ contact:
   - name: Email
     link: mailto:wolfgang@wolfgangdeutsch.work
     link-text: "wolfgang at wolfgangdeutsch dot work"
+  - name: Facebook
+    link: https://www.facebook.com/wolfgangdeutsch.work
+    link-text: "@wolfgangdeutsch.work"
   - name: Twitter
     link: https://twitter.com/wolfgangwork
     link-text: "@wolfgangwork"
