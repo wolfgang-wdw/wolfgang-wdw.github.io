@@ -5,6 +5,7 @@ lang: en
 permalink: "/services/backends/code_en/"
 lang_ref: services_backends_code
 ---
+
 # {{ page.title }}
 Broadly speaking, in the context of my work, the backend is everything that lies behind the curtain of your web site, mobile game, not mobile game, or anything else that interacts with a user and is connected to the internet.
 Building a full scale (and scalable) backend is quite the commitment and you will want a fully integrated, full-time developer on that.
