@@ -18,7 +18,8 @@ Failing that, there are a few ways we can work together in a modular way that ca
 - Build the whole system - This will highly depend on how much time I have.
 
 Here are some technologies I work with:
-- Java, NodeJS, Erlang, Ruby, Python, Shell
+- Java, JavaScript, Erlang, Ruby, Python, Shell
+- Apache Tomcat, NodeJS, Erlang OTP
 - PostgreSQL, MySQL, MongoDB, Mnesia
 - Amazon Web Services (EC2, RDS, ElastiCache, Lambda, S3, CloudFront, AWS CLI)
 - Old fashioned Linux servers
