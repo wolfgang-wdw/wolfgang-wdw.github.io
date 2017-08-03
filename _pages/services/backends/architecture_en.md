@@ -13,7 +13,7 @@ Yes, Architecture. It's the way your components are put together and interact in
 - Application servers can be request based or have standing connections, or both
 - Different components will handle different aspects of the system (user management, chat, content delivery, etc)
 - There usually are public and private networks, restricted shell access to both, firewalls, and so on
-- There are hopefully no single point of failures
+- You want to avoid "single point of failures" at all times
 - Some services will be load balanced, some maybe not
 
 So, when it comes to backend systems, is vital to ask yourself a couple of questions before you start coding, for instance:
