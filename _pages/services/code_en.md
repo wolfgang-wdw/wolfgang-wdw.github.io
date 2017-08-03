@@ -1,9 +1,9 @@
 ---
 layout: default
-title:  Backends - Building
+title:  Backends - Code
 lang: en
-permalink: "/services/backends/new_systems_en/"
-lang_ref: services_backends_new_systems
+permalink: "/services/backends/code_en/"
+lang_ref: services_backends_code
 ---
 # {{ page.title }}
 Broadly speaking, in the context of my work, the backend is everything that lies behind the curtain of your web site, mobile game, not mobile game, or anything else that interacts with a user and is connected to the internet.
