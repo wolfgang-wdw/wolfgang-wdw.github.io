@@ -2,7 +2,7 @@
 layout: default
 title:  Backends - Building
 lang: en
-permalink: "/services/code/new_systems_en/"
+permalink: "/services/backends/new_systems_en/"
 ref: services_code_new_systems
 ---
 # {{ page.title }}

@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  Backends - Tooling
-lang: en
-permalink: "/services/code/tooling_en/"
+title:  Backends - Werkzeuge
+lang: de
+permalink: "/services/backends/tooling_de/"
 ref: services_code_tooling
 ---
 # {{ page.title }}

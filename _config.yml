@@ -37,7 +37,7 @@ services:
   languages:
     en:
       - name: Backends
-        id: code
+        id: backends
         sections:
           - New Systems
           - Existing Systems # extend, cleaup, rewrite, maintain
@@ -69,7 +69,7 @@ services:
           - Scalability
     de:
       - name: Backends
-        id: code
+        id: backends
         sections:
           - Neue Systeme
           - Bestehende Systeme # extend, cleaup, rewrite, maintain
@@ -100,7 +100,7 @@ services:
           - Anbieter Auswahl
           - Skalierbarkeit
   links:
-    code:
+    backends:
       - new_systems
       - existing_systems
       - legacy_code
