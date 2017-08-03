@@ -39,57 +39,54 @@ services:
       - name: Backends
         id: backends
         sections:
-          - New Systems
-          - Existing Systems # extend, cleaup, rewrite, maintain
+          - Code # extend, cleaup, rewrite, maintain
+          - Architecture # networking, storage, scaling
+          - Automation
+          - Tooling
           - Legacy Code
-          - Tooling # Automation for all kinds of things, but also GUI tools, etc
       - name: DevOps
         id: devops
         sections:
-          - Deployment # includes dev/stage/live
+          - Operation
           - Load Testing
-          - Scaling
           - Monitoring
-          - Networking
+          - Scaling
       - name: Coaching
         id: coaching
         sections:
-          - Test Driven Development
-          - Refactoring
-          - Clean Code
+          - Backends
           - DevOps
+          - Test Driven Development
           - Agile Planning
       - name: Consulting
         id: consulting
         sections:
           - Feasibility
-          - Systems Evaluation
+          - Systems Evaluation # Includes scalability
           - Code Review
           - Vendor Selection
-          - Scalability
     de:
       - name: Backends
         id: backends
         sections:
-          - Neue Systeme
-          - Bestehende Systeme # extend, cleaup, rewrite, maintain
-          - Legacy Code
+          - Code # extend, cleaup, rewrite, maintain
+          - Architektur # networking, storage, scaling
+          - Automatisierung
           - Werkzeuge
+          - Legacy Code
       - name: DevOps
         id: devops
         sections:
-          - Deployment # includes dev/stage/live
+          - Betreibung
           - Last Tests
-          - Skalierung
           - Überwachung
-          - Vernetzung
+          - Skalierung
       - name: Coaching
         id: coaching
         sections:
-          - Test Driven Development
-          - Refactoring
-          - Clean Code
+          - Backends
           - DevOps
+          - Test Driven Development
           - Agile Planung
       - name: Consulting
         id: consulting
@@ -98,31 +95,28 @@ services:
           - System-Auswertung
           - Code Review
           - Anbieter Auswahl
-          - Skalierbarkeit
   links:
     backends:
-      - new_systems
-      - existing_systems
-      - legacy_code
+      - code
+      - architecture
+      - automation
       - tooling
+      - legacy_code
     devops:
-      - deployment
+      - operation
       - load_testing
-      - scaling
       - monitoring
-      - networking
+      - scaling
     coaching:
-      - tdd
-      - refactoring
-      - clean_code
+      - backends
       - devops
+      - tdd
       - agile_planning
     consulting:
       - feasibility
       - systems_evaluation
       - code_review
       - vendor_selection
-      - scalability
 
 markdown: kramdown
 
