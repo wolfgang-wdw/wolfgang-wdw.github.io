@@ -1,45 +1,29 @@
 ---
 layout: default
-title:  Backends - New Systems
+title:  Backends - Building
 lang: en
 permalink: "/services/code/new_systems_en/"
 ref: services_code_new_systems
 ---
 # {{ page.title }}
-## Coming soon!
+Broadly speaking, in the context of my work, the backend is everything that lies behind the curtain of your web site, mobile game, not mobile game, or anything else that interacts with a user and is connected to the internet.
+Building a full scale (and scalable) backend is quite the commitment and you will want a fully integrated, full-time developer on that.
+Failing that, there are a few ways we can work together in a modular way that can get you what you need. I can:
+- Prototype some options to help you make decisions
+- Create a minimally viable system to get your started
+- Make some technical design suggestions on paper
+- Create a module inside your already modularized system
+- Modularize your system
+- Build the whole system - This will highly depend on how much time I have.
 
-<!-- # {{ page.title }}
+Here are some technologies I work with:
+- Java, NodeJS, Erlang, Ruby, Python, Shell
+- PostgreSQL, MySQL, MongoDB, Mnesia
+- Amazon Web Services (EC2, RDS, ElastiCache, Lambda, S3, CloudFront, AWS CLI)
+- Old fashioned Linux servers
+- Ansible (for deployment and some provisioning)
+- Puppet
+- Jenkins (as a user and as an admin)
+- Git, Github, Perforce (as a user and as an admin)
 
-What is a "backend system", anyway? Broadly speaking, it is everything that lies behind the curtain of your web site, mobile game, not mobile game, or anything else that interacts with a user and is connected to the internet.
-The backend is usually broken up into a couple of more or less orthogonal services. For example:
-- Change user data, like passwords, names, what have you
-- Change the state of the game the user is playing
-- A service where users can chat with each other in real time
-- A service that handles payments
-- A service that does some longer running calculations and stores results in the databases
-- Or, hey, if you like to break it all up into that new thing the kids are doing, called Microservices, I'm game.
-
-All this is usually backed by a database, or more databases. There might be caching involved. There is application logic. So much stuff!
-
-While these things are not done overnight, I can do most of them in sequence, on my own or in concert with your peeps.
-
-**Here are some of the things I can do for and with you**:
-
-Programming languages and environments:
-- Erlang and the OTP
-- PHP and the LAMP stack
-- Java and Apache Tomcat
-- NodsJS and its many friends
-
-Databases:
-- PostgreSQL
-- MySQL
-- MongoDB
-- RDS (AWS Relational Database Service)
-
-Tooling/Deployment:
-- Ansible
-- AWS command line API scripting
-- Shell, Python, Ruby, Perl, NodeJS, whatever gets the job done
-
-Let's talk about what you want to have happen. Then we can decide on what technologies are suitable. -->
+Anything else you fancy, let me know and I will go and bone up on it.
