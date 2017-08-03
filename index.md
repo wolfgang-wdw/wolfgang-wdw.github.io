@@ -2,7 +2,7 @@
 layout: default
 title:  Home
 lang: en
-ref: home
+lang_ref: home
 ---
 ### Who am I?
 - I am an independent Software Developer working and living in Vienna, Austria

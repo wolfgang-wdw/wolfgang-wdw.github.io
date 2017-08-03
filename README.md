@@ -126,11 +126,11 @@ Let's use a configuration / data block e.g.:
 
 ``` yaml
 nav:
-- { title: 'Welcome',              href: '/' }
-- { title: 'Page Two',             href: '/two.html' }
-- { title: 'Page Three',           href: '/three.html' }
-- { title: 'Questions? Comments?', href: 'http://groups.google.com/group/wwwmake' }
-- { title: 'About',                href: 'https://github.com/henrythemes/jekyll-starter-theme-v2' }
+- { title: 'Welcome',              hlang_ref: '/' }
+- { title: 'Page Two',             hlang_ref: '/two.html' }
+- { title: 'Page Three',           hlang_ref: '/three.html' }
+- { title: 'Questions? Comments?', hlang_ref: 'http://groups.google.com/group/wwwmake' }
+- { title: 'About',                hlang_ref: 'https://github.com/henrythemes/jekyll-starter-theme-v2' }
 ```
 
 And (auto-)build the navigation menu using a macro e.g.:

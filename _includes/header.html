@@ -31,7 +31,7 @@
         {% endfor %}
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% assign pages=site.pages | where:"lang_ref", page.lang_ref | sort: 'lang' %}
         {% for p in pages %}
             {% if page.lang != p.lang %}
               <li><a href="{{ p.url }}" class="{{ p.lang }}">{{ site.strings.language[p.lang] }}</a></li>

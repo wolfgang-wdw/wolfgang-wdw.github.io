@@ -2,7 +2,7 @@
 layout: default
 title:  Start
 lang: de
-ref: home
+lang_ref: home
 ---
 ### Wer bin ich?
 - Ich bin ein unabhängiger Software Entwickler in Wien, Österreich.
