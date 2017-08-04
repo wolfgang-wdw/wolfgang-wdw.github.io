@@ -15,11 +15,11 @@ I prefer to call it "code that everyone is afraid to change but it just wont die
 
 ### What can I do for you ?
 
-I can not and will not maintain your Legacy code. Sorry.
+I can't maintain your Legacy code. Sorry.
 
 What I can do is the following:
 - Put it under test and start cleaning it up
 - Prepare it for changes that you need or, god forbid, new features
-- Transition it to a more modern technology, while keeping it running
+- Transition it to a more modern technology, while keeping everything running
 
-I get it, you kind of have gotten used to the devil you know. But you don't have to. Let me get down into that sewer and start cleaning up. 
+I get it, you kind of have gotten used to the devil you know. But you don't have to. Let me get down into that sewer and start cleaning up.
