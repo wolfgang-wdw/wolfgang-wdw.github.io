@@ -8,7 +8,7 @@ lang_ref: services_backends_tooling
 ### Custom tools of the trade
 Sometimes you need more than what comes out of the box.
 
-To be sure, [COTS](https://en.wikipedia.org/wiki/Commercial_off-the-shelf) is always best, especially if it has strong customization options.
+[COTS](https://en.wikipedia.org/wiki/Commercial_off-the-shelf) is almost always the best choice, especially if there are strong customization options.
 
 For example, I will never again write deployment scripts by hand. I will use things like Ansible, or Puppet, Salt, Chef, and so on, and customize whatever needs customizing.
 
