@@ -6,12 +6,9 @@ lang_ref: home
 ---
 ### Who am I?
 - I am an independent Software Developer working and living in Vienna, Austria
-- I can **create**, **maintain**, **deploy** and **operate** your backend systems.
+- I can [create](/services/backends/code_en) and [operate](/services/backends/operation/devops_en) your backend systems.
 - I use test driven development and automated testing wherever I can.
 - I know a little bit about game development.
+- I can coach you on all of the above.
 
-<!-- ## What makes me tick
-- A manifesto of sorts
-- People who inspire me
-- Books that inspire me
-- Games that inspire me -->
+<p class="psst"> Psst: You can also hire me as a consultant</p>

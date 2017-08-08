@@ -88,3 +88,8 @@ a.en, a.de {
 a.en:hover, a.de:hover {
   color: $link-hover-color;
 }
+
+.psst {
+  color: $psst-color;
+  font-size: $psst-font-size;
+}
