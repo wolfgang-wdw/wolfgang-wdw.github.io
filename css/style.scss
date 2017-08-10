@@ -14,6 +14,9 @@
 
 // Bootstrap customization
 
+.breadcrumb {
+  font-size: 80%;
+}
 .navbar-brand {
   margin-right: 10px;
   text-transform: uppercase;
@@ -31,6 +34,10 @@
 }
 .navbar-nav>li>a {
     text-decoration: none;
+}
+
+.navbar-services {
+  a { color: red; }
 }
 
 .table {
