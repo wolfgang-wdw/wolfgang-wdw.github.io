@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service_detail
 title:  Backends - Automation
 lang: en
 permalink: "/services/backends/automation_en/"
@@ -7,8 +7,6 @@ lang_ref: services_backends_automation
 previous: services_backends_architecture
 next: services_backends_tooling
 ---
-{% include page-nav.html %}
-
 ### Auto, mate
 Almost all of the processes in backend deployment and operation can be automated. Some in development as well.
 

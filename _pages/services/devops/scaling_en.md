@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service_detail
 title:  DevOps - Scaling
 lang: en
 permalink: "/services/devops/scaling_en/"
@@ -7,8 +7,6 @@ lang_ref: services_devops_scaling
 previous: services_devops_monitoring
 next: services_coaching_backends
 ---
-{% include page-nav.html %}
-
 ### "Will this scale?"
 This is a good question to ask, despite it being [made fun of](https://medium.com/conquering-corporate-america/10-tricks-to-appear-smart-during-meetings-27b489a39d1a).
 

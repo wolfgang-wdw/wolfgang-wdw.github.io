@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service_detail
 title:  Backends - Architecture
 lang: en
 permalink: "/services/backends/architecture_en/"
@@ -7,7 +7,6 @@ lang_ref: services_backends_architecture
 previous: services_backends_code
 next: services_backends_automation
 ---
-{% include page-nav.html %}
 ### Architecture?
 With architecture, I mean the way the components of the system are put together. For example:
 

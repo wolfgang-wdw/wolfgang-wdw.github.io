@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service_detail
 title:  Backends - Tooling
 lang: en
 permalink: "/services/backends/tooling_en/"
@@ -7,8 +7,6 @@ lang_ref: services_backends_tooling
 previous: services_backends_automation
 next: services_backends_legacy_code
 ---
-{% include page-nav.html %}
-
 ### Custom tools of the trade
 Good tools enable the best people to do their best work.
 
