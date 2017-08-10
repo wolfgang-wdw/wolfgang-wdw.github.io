@@ -4,30 +4,10 @@ title:  Backends - Architecture
 lang: en
 permalink: "/services/backends/architecture_en/"
 lang_ref: services_backends_architecture
+previous: services_backends_code
+next: services_backends_automation
 ---
-
-<!-- <ol class="breadcrumb">
-  <li>
-    <i class="fa fa-caret-left" aria-hidden="false"></i>
-    <a href="#">
-    Code
-    </a>
-  </li>
-  <li>
-    <i class="fa fa-caret-up" aria-hidden="false"></i>
-    <a href="#">
-    Backends
-    </a>
-  </li>
-
-  <li>
-    <a href="#">
-    Automation
-    </a>
-    <i class="fa fa-caret-right" aria-hidden="false"></i>
-  </li>
-</ol> -->
-
+{% include page_nav.html %}
 ### Architecture?
 With architecture, I mean the way the components of the system are put together. For example:
 
