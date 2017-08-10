@@ -14,6 +14,8 @@ Scalability of all systems involved should be considered as early as possible in
 
 Some things are easy to scale, other things are hard to scale. It's easy, trivial even, to scale a fleet of load balanced, restful application servers. It's harder to scale state-full systems and databases.
 
+### What can I do for you?
+
 Many scaling problems can be solved or made irrelevant by architectural decisions in conjunction with system requirements.
 
 Scaling can be done automatically, in response to predefined rules, or by hand. This usually depends on what part of the systems you are scaling.
