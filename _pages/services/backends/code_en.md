@@ -18,7 +18,7 @@ There are a a couple of ways we can work together on a more granular basis. I ca
 - Modularize your system
 - Build the whole system - Depending on your desired scope and my time constraints
 
-### What technologies am I using?
+Here are some technologies I can use:
 - Java, JavaScript, Erlang, Ruby, Python, Shell
 - Apache Tomcat, NodeJS, Erlang OTP
 - PostgreSQL, MySQL, MongoDB, Mnesia

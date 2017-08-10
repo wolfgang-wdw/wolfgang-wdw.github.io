@@ -14,10 +14,7 @@ Michael Feathers calls it simply "code without tests", which might be a bit narr
 I prefer to call it "code that everyone is afraid to change but it just wont die".
 
 ### What can I do for you ?
-
-I can't maintain your Legacy code. Sorry.
-
-What I can do is the following:
+While I can't maintain your legacy code, I can do the following:
 - Put it under test and start cleaning it up
 - Prepare it for changes that you need or, god forbid, new features
 - Transition it to a more modern technology, while keeping everything running
