@@ -7,7 +7,7 @@ lang_ref: services_devops_monitoring
 previous: services_devops_load_testing
 next: services_devops_scaling
 ---
-{% include page_nav.html %}
+{% include page-nav.html %}
 
 ### Monitoring for fun and profit
 If you run a backend system, you will need to monitor it. Things people are usually interested in are, among others:

@@ -7,7 +7,7 @@ lang_ref: services_backends_automation
 previous: services_backends_architecture
 next: services_backends_tooling
 ---
-{% include page_nav.html %}
+{% include page-nav.html %}
 
 ### Auto, mate
 Almost all of the processes in backend deployment and operation can be automated. Some in development as well.
