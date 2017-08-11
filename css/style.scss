@@ -24,6 +24,7 @@
 }
 .navbar-brand {
   margin-right: 10px;
+  font-size: 90%;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -49,6 +50,13 @@
 }
 
 // Other stuff
+
+.logo {
+  max-height: 50px;
+  padding: 0;
+  margin: -15px;
+  padding-right: 20px;
+}
 
 .page-nav-column {
   * {
