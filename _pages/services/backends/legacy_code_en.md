@@ -7,18 +7,16 @@ lang_ref: services_backends_legacy_code
 previous: services_backends_tooling
 next: services_devops_operation
 ---
-### What is Legacy Code?
-
 According to [Wikipedia](https://en.wikipedia.org/wiki/Legacy_code), Legacy Code is "is source code that relates to a no-longer supported or manufactured operating system or other computer technology."
 
 Michael Feathers calls it simply "code without tests", which might be a bit narrow, but it usually fits the bill.
 
-I prefer to call it "code that everyone is afraid to change but it just wont die".
+I prefer to call it "code that everyone is afraid to change and that just wont die".
 
-### What can I do for you ?
+### What I can do for you
 While I can't maintain your legacy code, I can do the following:
-- Put it under test and start cleaning it up
-- Prepare it for changes that you need or, god forbid, new features
-- Transition it to a more modern technology, while keeping everything running
+- Put it under test and start cleaning it up.
+- Prepare it for changes that you need or, god forbid, new features.
+- Transition it to a more modern technology, while keeping everything running.
 
-I get it, you kind of have gotten used to the devil you know. But you don't have to. Let me get down into that sewer and start cleaning up.
+I get it, you have kind of gotten used to the devil you know. But there is another way. I'm not afraid of getting my hands dirty in your plumbing.

@@ -6,11 +6,11 @@ permalink: "/services/backends/code_en/"
 lang_ref: services_backends_code
 next: services_backends_architecture
 ---
-### What is "the backend", anyway?
-Broadly speaking, in the context of online services, the backend is everything that lies behind the curtain of your web site, mobile game, not mobile game, or anything else that interacts with a user and is connected to the internet. It usually consists of a couple of application servers and databases, and a host of other auxiliary systems for monitoring, analysis, security, and so on.
+Broadly speaking, in the context of online services, the backend is everything that lies behind the curtain of your web site, mobile game, not mobile game, or anything else that interacts with a user and is connected to the internet.  
+It usually consists of a couple of application servers and databases, and a host of other auxiliary systems for monitoring, analysis, security, and so on.  
 Building a full scale (and scalable) backend is quite the commitment and you will ideally have a fully integrated, full-time developer for that. Those are hard to get, and that is where I come in.
 
-### What can I do for you?
+### What I can do for you
 There are a a couple of ways we can work together on a more granular basis. I can:
 - Prototype some options to help you make decisions
 - Create a minimally viable system to get you started
