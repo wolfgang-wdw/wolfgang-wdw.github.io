@@ -1,5 +1,5 @@
 ---
-layout: services-grid
+layout: service-grid
 title:  Leistungen
 lang: de
 lang_ref: services
