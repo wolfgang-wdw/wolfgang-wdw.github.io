@@ -51,6 +51,14 @@
 
 // Other stuff
 
+.content {
+  padding-left: 15%;
+  padding-right: 15%;
+  p {
+    line-height: 1.5;
+  }
+
+}
 .logo {
   max-height: 45px;
   padding: 0;
@@ -65,11 +73,11 @@
     padding: 0
   };
   a {
-    color: $navbar-default-link-color;
+    color: $page-nav-link-color;
     text-decoration: none;
   }
   a:hover {
-    color: $navbar-default-link-hover-color;
+    color: $page-nav-link-hover-color;
   }
 }
 

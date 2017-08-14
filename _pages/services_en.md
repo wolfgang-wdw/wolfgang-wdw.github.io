@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: services-grid
 title:  Services
 lang: en
 lang_ref: services
