@@ -27,6 +27,10 @@
     padding-right: 100px;
   }
 
+  @media (max-width: $screen-sm-min) {
+    li { display: list-item; }
+  }
+
 }
 .navbar-brand {
   margin-right: 10px;
