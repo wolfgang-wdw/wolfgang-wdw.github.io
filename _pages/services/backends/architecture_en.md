@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  Backends - Architecture
 lang: en
 permalink: "/services/backends/architecture_en/"

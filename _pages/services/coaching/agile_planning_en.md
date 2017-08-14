@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  Coaching - Agile Planning
 lang: en
 permalink: "/services/coaching/agile_planning_en/"

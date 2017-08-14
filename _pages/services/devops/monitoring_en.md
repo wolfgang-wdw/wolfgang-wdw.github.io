@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  DevOps - Monitoring
 lang: en
 permalink: "/services/devops/monitoring_en/"

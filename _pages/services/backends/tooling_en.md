@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  Backends - Tooling
 lang: en
 permalink: "/services/backends/tooling_en/"

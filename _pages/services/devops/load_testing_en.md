@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  DevOps - Load Testing
 lang: en
 permalink: "/services/devops/load_testing_en/"

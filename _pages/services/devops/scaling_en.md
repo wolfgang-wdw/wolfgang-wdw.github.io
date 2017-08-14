@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  DevOps - Scaling
 lang: en
 permalink: "/services/devops/scaling_en/"

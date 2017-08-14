@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  Backends - Legacy Code
 lang: en
 permalink: "/services/backends/legacy_code_en/"

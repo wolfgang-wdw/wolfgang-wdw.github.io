@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  Backends - Code
 lang: en
 permalink: "/services/backends/code_en/"

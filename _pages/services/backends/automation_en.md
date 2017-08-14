@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  Backends - Automation
 lang: en
 permalink: "/services/backends/automation_en/"

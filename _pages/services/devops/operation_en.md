@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  DevOps - Operation
 lang: en
 permalink: "/services/devops/operation_en/"

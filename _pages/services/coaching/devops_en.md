@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  Coaching - DevOps
 lang: en
 permalink: "/services/coaching/devops_en/"

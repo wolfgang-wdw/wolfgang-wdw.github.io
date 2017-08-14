@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  Coaching - Test Driven Development
 lang: en
 permalink: "/services/coaching/tdd_en/"

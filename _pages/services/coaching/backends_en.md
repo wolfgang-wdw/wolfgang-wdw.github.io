@@ -1,5 +1,5 @@
 ---
-layout: service_detail
+layout: service-detail
 title:  Coaching - Backends
 lang: en
 permalink: "/services/coaching/backends_en/"
