@@ -7,8 +7,9 @@ lang_ref: services_coaching_tdd
 previous: services_coaching_devops
 next: services_coaching_agile_planning
 ---
-I have successfully used Test Driven Development for a couple of years now.
-Especially for backend systems, where no pesky GUI is involved, it can work very well.
+I have successfully used [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) for a couple of years now.
+Especially for backend systems, where no pesky GUI is involved, it can work very well.  
+That said, I am more than willing to expand that notion.
 
 ### What I can do for you
 Depending on where you are with TDD, I can help you out in various ways:
