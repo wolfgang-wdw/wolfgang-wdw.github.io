@@ -7,17 +7,17 @@ lang_ref: services_devops_operation
 previous: services_backends_legacy_code
 next: services_devops_load_testing
 ---
-### What is DevOps?
-DevOps is basically about how developers and operators (and maybe managers) of backend systems talk to each other in order to ensure the best outcome on the backend (pun intended).
+DevOps (short for a combination of "development" and "operation") is about how developers and operators (and maybe managers) of backend systems can communicate most effectively.
 
 Or you can just call it LiveOps without completely ignoring the developers and stakeholders. Who knew that would be a good idea.
 
 [Wikipedia](https://en.wikipedia.org/wiki/DevOps) has the fancy definition, if you care for it.
 
-### What can I do for you?
-Operating backend systems is my major role in DevOps. I can do things like:
-- Facilitate communication between the parties mentioned above
-- Automate provisioning of computing resources
-- Automate the deployment of your systems
-- Set up reproducible local systems for developers
-- Set up automated end-to-end tests
+### What I can do for you
+Operating backend systems is my main contribution to DevOps.  
+This includes:
+- Facilitating communication between the parties mentioned above
+- Automating the provisioning ("spinning up") of computing resources
+- Creating and automating the deployment pipeline
+- Setting up reproducible local systems for developers
+- Setting up automated end-to-end tests
