@@ -27,6 +27,7 @@
     border-bottom: 1px solid $service-sections-list-separator-color;
     padding: 4%;
     background-color: $service-table-entry-background-color;
+    list-style-type: none;
  }
  li:last-child {
    border: none;
