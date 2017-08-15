@@ -11,7 +11,7 @@ The world "Agile" sounds so high minded. I am not a fan. It gives people the wro
 But it also kind of fits. You want to be agile. You want to be able to change direction.  
 And planning, obviously, is vital for any serious project.
 
-Agile planning is simply planning while trying not to be uptight about it.
+Agile planning is simply planning while trying to not be too uptight about it.
 
 It is also an exercise in communication between the stakeholders and the developers:  
 The ones defining the results, and the ones creating the results.
@@ -23,9 +23,11 @@ In the end, every line of code should be mappable back to something that has bee
 
 If that sounds too good to be true, of course it is. Day to day reality is messy.  
 
+### What I can do for you
 Still, we can carve out a little bit of order. Here are examples of how I can help:
 
 - Sketch out ways to plan your project, given all it's unique and specific complexities.
 - Help out in the initial planning stages.
 - Facilitate communication between stakeholders and developers.
-- Recommend ways to make the process visible and repeatable.
+- Recommend ways to make the planning process visible and repeatable.
+- Help establish stable iterations and feedback loops

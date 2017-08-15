@@ -7,15 +7,17 @@ lang_ref: services_coaching_backends
 previous: services_devops_scaling
 next: services_coaching_devops
 ---
-### Coaching, huh?
-Coaching is the art of asking the right questions. A gentle nudging in a direction you already suspect to be right.
+Coaching is the art of asking the right questions to tease out answers.  
+I will gladly share with you what I know about backend development, in a hands on and interactive way.
 
-I will gladly share with you and your peeps what I know about backend development, either in one on one or one to many sessions.
-
-### What can I do for you?
-- Got started but you got stuck? I get you unstuck.
-- Don't know how to get started? I get you started
-- Have a specific sticky issue? I help you unstick it
-- Want to know a specific trick? I tell you there are no tricks.
+### What I can do for you
+- Got started but you got stuck?
+: Code smells? Not sure if you are using the "right" technology? Let me unstick you.
+- Don't know how to get started?
+: Lots and lots of ideas, but a sense of overwhelm? Let's untangle the web and start planning.
+- Have a specific sticky issue?
+: A server is doing random, weird things? CPU/Memory/Disk spikes with no good reason? Queries that take hours? Let Unstickman help you.
+- Want to know a specific trick?
+: I inform you that there are no tricks. And then we move on from there.
 
 Anything else? Let's [talk](/contact_en).
