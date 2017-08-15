@@ -11,4 +11,4 @@ lang_ref: home
 - I know a little bit about game development.
 - I can coach you on all of the above.
 
-<p class="psst"> Psst: You can also hire me as a consultant</p>
+<p class="psst"> Psst: You can also hire me as a <a href="/services/consulting/feasibility_en">consultant</a></p>
