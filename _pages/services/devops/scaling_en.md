@@ -20,7 +20,7 @@ Some things are easy to scale, other things are hard to scale. It's easy, trivia
 Sometimes you also want to scale a system back down, so it is useful to think about this beforehand as well, in order avoid unnecessary expenses.
 
 ### What I can do for you
-The ultimate goal is to make scaling just a matter of how much coin you insert into your hosting provider. It might not always be possible but you can get close to it, and I can help:
+The goal is to make scaling just a matter of how much coin you insert into your hosting provider. To inch closer to this goal, I can help you with:
 - Architectural decisions
 : Many scaling problems can be solved or made irrelevant by early decisions in conjunction with system requirements.
 

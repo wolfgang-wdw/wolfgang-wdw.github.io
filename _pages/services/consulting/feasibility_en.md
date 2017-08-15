@@ -9,7 +9,7 @@ next: services_consulting_systems_evaluation
 ---
 As a consultant, I make measurements and report the results back to you.  
 One of the things we can "measure" up front is the feasibility (i.e. can it be done?) of a project.
-I put measure in quotes because it is not an exact science. In reality it is a kind of fuzzy, iterative process, but it has to start somewhere.
+I put the quotes there because the measuring here is not exact. In reality it is a kind of fuzzy, iterative process, but it has to start somewhere.
 
 ### What I can do for you
 I go in search of answers to questions like:
