@@ -62,15 +62,14 @@ services:
         id: consulting
         sections:
           - Feasibility
-          - Systems Evaluation # Includes scalability
-          - Code Review
-          - Vendor Selection
+          - Systems Evaluation
+          - Due Diligence
     de:
       - name: Backends
         id: backends
         sections:
-          - Code # extend, cleaup, rewrite, maintain
-          - Architektur # networking, storage, scaling
+          - Code
+          - Architektur
           - Automatisierung
           - Werkzeuge
           - Legacy Code
@@ -93,8 +92,7 @@ services:
         sections:
           - Machbarkeit
           - System-Auswertung
-          - Code Review
-          - Anbieter Auswahl
+          - Due Diligence
   links:
     backends:
       - code
@@ -115,8 +113,7 @@ services:
     consulting:
       - feasibility
       - systems_evaluation
-      - code_review
-      - vendor_selection
+      - due_diligence
 
 markdown: kramdown
 

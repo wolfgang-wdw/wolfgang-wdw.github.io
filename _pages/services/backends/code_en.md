@@ -5,6 +5,7 @@ lang: en
 permalink: "/services/backends/code_en/"
 lang_ref: services_backends_code
 next: services_backends_architecture
+previous: services_consulting_due_diligence
 ---
 Broadly speaking, in the context of online services, the backend is everything that lies behind the curtain of your web site, mobile game, not mobile game, or anything else that interacts with a user and is connected to the internet.  
 It usually consists of a couple of application servers and databases, and a host of other auxiliary systems for monitoring, analysis, security, and so on.  

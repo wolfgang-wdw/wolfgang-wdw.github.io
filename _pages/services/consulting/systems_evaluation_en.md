@@ -5,7 +5,7 @@ lang: en
 permalink: "/services/consulting/systems_evaluation_en/"
 lang_ref: services_consulting_systems_evaluation
 previous: services_consulting_feasibility
-next: services_consulting_vendor_selection
+next: services_consulting_due_diligence
 ---
 Here I look at your system and its components from a bird's-eye view and look for improvement potential. I report back with any recommendations I have derived.
 
