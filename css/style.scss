@@ -160,4 +160,11 @@ a.en:hover, a.de:hover {
 .psst {
   color: $psst-color;
   font-size: $psst-font-size;
+  a {
+    color: $psst-color;
+  }
+  a:hover {
+    color: $link-hover-color;
+  }
+
 }
