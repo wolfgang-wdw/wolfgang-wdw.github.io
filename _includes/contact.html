@@ -1,12 +1,17 @@
-<div class="table">
-<table class="table">
-    <tbody>
-      {% for c in site.contact %}
-      <tr>
-        <td style="width: 10%;"><b>{{ c.name }}</b></td>
-        <td><a href="{{c.link}}">{{ c.link-text }}</a></td>
-      </tr>
-    {% endfor %}
-    </tbody>
-  </table>
+<img
+  src="/img/headshot.jpg"
+  alt="Wolfgang Deutsch"
+  class="img-circle img-responsive center-block headshot"
+/>
+
+<div class="contact-headline">Wolfgang Deutsch</div>
+<div class="contact-subtitle">Senior Software Engineer</div>
+
+<div class="contact-links">
+  {% for c in site.contact %}
+    <a href="{{c.link}}">{{ c.name }}</a>
+    {% if forloop.last == false %}
+    &bull;
+    {% endif %}
+  {% endfor %}
 </div>
