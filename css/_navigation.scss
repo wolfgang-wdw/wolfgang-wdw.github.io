@@ -46,9 +46,16 @@
 
 .navbar-brand {
   margin-right: 10px;
+
   font-size: 80%;
+
   text-transform: uppercase;
   font-weight: 600;
+
+  // iPhone 3
+  @media (max-width: 320px) {
+    font-size: 0%;
+  }
 }
 
 .navbar {
