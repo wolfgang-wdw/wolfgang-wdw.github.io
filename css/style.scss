@@ -8,132 +8,12 @@
 ---
 
 @import 'settings';
+@import 'bootstrap';
+@import 'navigation';
 @import 'footer';
 @import 'service-grid';
-@import "bootstrap";
-
-// Bootstrap customization
-
-.breadcrumb {
-  background: $site-background-color;
-  font-size: 85%;
-  font-weight: 500;
-  text-align: center;
-  .current-page-title {
-    font-size: 150%;
-  }
-  @media (min-width: $screen-md-min) {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  @media (max-width: $screen-sm-min) {
-    li { display: list-item; }
-  }
-
-}
-.navbar-brand {
-  margin-right: 10px;
-  font-size: 80%;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.navbar {
-  margin-bottom: 20px;
-  background-color: $header-background-color;
-  box-shadow: 0px 0px 10px $service-table-shadow-color;
-}
-
-.navbar-header>a {
-    text-decoration: none;
-}
-.navbar-nav>li>a {
-    text-decoration: none;
-}
-
-.table {
-  th, td {
-    border-top: none !important;
-  }
-  tr
-  {
-    border-bottom: 1px solid #ddd;
-  }
-}
-
-// Other stuff
-
-.content {
-  @media (min-width: $screen-md-min) {
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-
-  text-align: justify;
-
-  font-size: 18px;
-  p {
-    line-height: 1.5;
-  }
-
-  li {
-    list-style-type: square;
-  }
-  ul {
-    padding-left: 1.2em;
-  }
-
-
-
-
-}
-
-.logo {
-  max-height: 45px;
-  padding: 0;
-  margin: -12px;
-  padding-right: 20px;
-}
-
-.headshot {
-  max-height: 150px;
-  margin-top: 5px;
-}
-
-.contact-headline {
-  text-align: center;
-  font-size: 200%;
-  font-weight: 600;
-}
-
-.contact-subtitle {
-  margin-top: 0;
-  text-align: center;
-  font-size: 100%;
-}
-
-.contact-links {
-  margin-top: 5px;
-  text-align: center;
-  font-size: 80%;
-}
-
-.page-nav-column {
-  margin-bottom: 20px;
-
-  * {
-    margin:0;
-    padding: 0
-  };
-  a {
-    color: $page-nav-link-color;
-    text-decoration: none;
-  }
-  a:hover {
-    color: $page-nav-link-hover-color;
-  }
-}
+@import "content";
+@import "contact";
 
 body {
   padding: 1%;
@@ -192,5 +72,4 @@ a.en:hover, a.de:hover {
   a:hover {
     color: $link-hover-color;
   }
-
 }
