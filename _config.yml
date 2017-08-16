@@ -37,8 +37,8 @@ services:
       - name: Backends
         id: backends
         sections:
-          - Code # extend, cleaup, rewrite, maintain
-          - Architecture # networking, storage, scaling
+          - Code
+          - Architecture
           - Automation
           - Tooling
           - Legacy Code
@@ -52,7 +52,7 @@ services:
       - name: Coaching
         id: coaching
         sections:
-          - Backends
+          - Backend Development
           - DevOps
           - Test Driven Development
           - Agile Planning
@@ -81,7 +81,7 @@ services:
       - name: Coaching
         id: coaching
         sections:
-          - Backends
+          - Backend Entwicklung
           - DevOps
           - Test Driven Development
           - Agile Planung
