@@ -18,7 +18,7 @@ There are a a couple of ways we can work together on a more granular basis. I ca
 - Make some technical design suggestions "on paper"
 - Create a module inside your already modularized system
 - Modularize your system
-- Build the whole system - Depending on your desired scope and my time constraints
+- Interview potential full-time developers
 
 Here are some technologies I can use:
 - Java, JavaScript, Erlang, Ruby, Python, Shell
