@@ -19,7 +19,7 @@ With architecture, I mean the way the components of the system are put together.
 ### What I can do for you
 I will keep asking a couple of questions, for instance:
 - What is your backend supposed to do (the most obvious, most overlooked question)?
-- What data format is best when communicating with the front end?
+- Which data formats will be used when communicating with the front end?
 - Do you want a REST API or do you want standing connections, or both?
 - How many concurrent users will you have?
 - How quickly do you want to scale up in case of a traffic spike?
