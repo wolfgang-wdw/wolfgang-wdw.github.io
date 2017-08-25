@@ -73,3 +73,17 @@ a.en:hover, a.de:hover {
     color: $link-hover-color;
   }
 }
+
+.shoutout {
+  font-size: 85%;
+  @media (min-width: $screen-md-min) {
+    float: right;
+  }
+}
+
+.shoutout:before {
+  @media (max-width: $screen-md-min) {
+    content:"\a";
+    white-space: pre;
+  }
+}
