@@ -7,19 +7,19 @@ lang_ref: services_backends_architecture
 previous: services_backends_code
 next: services_backends_automation
 ---
-Wenn ich Architektur sage, meine ich die Zusammensetzung der Komponenten des Systems. Zum Beispiel:
+Mit Architektur meine ich die grobe Zusammensetzung der Komponenten des Systems. Zum Beispiel:
 - Datenbanken können in "clustern" oder "[shards](https://en.wikipedia.org/wiki/Shard_(database_architecture))" gruppiert sein, sie können repliziert sein, usw.
-- Applikationsserver können request basiert sein, stehende Verbindungen implementieren, oder beides.
+- Applikationsserver können REST basiert sein, stehende Verbindungen implementieren, oder beides.
 - In der Regel zerfällt Die Applikation in verschiedene Komponenten die verschiedene Aspekte des Systems behandeln (z.B. Benutzerverwaltung, Chat, Content Delivery).
 - Es gibt öffentliche und private Netzwerke, eingeschränkten Shell Zugang, Firewalls, usw.
 - [Single points of failure](https://en.wikipedia.org/wiki/Single_point_of_failure) sollten so gut wie möglich vermieden werden.
 - Einige Dienste werden load balanced sein, einige nicht.
 
 ### Was ich für Sie tun kann
-Ich werde wiederholt Fragen stellen, zum Beispiel:
-- Was soll es tun (die offensichtlichste, oft übersehene Frage)?
+Ich werde wiederholt Fragen stellen, wie zum Beispiel:
+- Was soll das Backend tun (die offensichtlichste, oft übersehene Frage)?
 - Welches Datenformate kommen bei der Kommunikation mit den Frontend zum Einsatz?
-- Brauchen sie eine REST API, stehende Verbindungen, oder beides?
+- Braucht es eine REST API, stehende Verbindungen, oder beides?
 - Wie viele Benutzer sollen gleichzeitig bedient werden können?
 - Wie schnell wollen Sie hoch-skalieren können, in Falle von Traffic-Spitzen?
 - Wie viele vorgesehene Abschaltzeiten wollen sie tolerieren?

@@ -9,10 +9,10 @@ previous: services_consulting_due_diligence
 ---
 Broadly speaking, in the context of online services, the backend is everything that lies behind the curtain of your web site, mobile game, not mobile game, or anything else that interacts with a user and is connected to the internet.  
 It usually consists of a couple of application servers and databases, and a host of other auxiliary systems for monitoring, analysis, security, and so on.  
-Building a full scale (and scalable) backend is quite the commitment and you will ideally have a fully integrated, full-time developer for that. Those are hard to get, and that is where I come in.
+Building a full scale (and scalable) backend is quite the commitment and you will ideally have a fully integrated, full-time developer for that. Which can't be me, btw.
 
 ### What I can do for you
-There are a a couple of ways we can work together on a more granular basis. I can:
+Even though I can't be with you full-time, there are a a couple of ways we can work together in manageable time frames. I can:
 - Prototype some options to help you make decisions
 - Create a minimally viable system to get you started
 - Make some technical design suggestions "on paper"
