@@ -27,4 +27,4 @@ Ich werde wiederholt Fragen stellen, wie zum Beispiel:
 - Wollen/Müssen Sie Ihr Live-Backend selbst operieren?
 - Wie oft werden sie Änderungen einspielen?
 
-Nicht alle dieser Fragen können im Vorfeld beantwortet werden, aber die Antworten werden die <em>Architektur</m> Ihres Systems nach und nach entstehen lassen.
+Nicht alle dieser Fragen können im Vorfeld beantwortet werden, aber die Antworten werden die <em>Architektur</em> Ihres Systems nach und nach entstehen lassen.
