@@ -10,14 +10,14 @@ previous: services_consulting_due_diligence
 
 Das Backend, im Kontext von Online Services, ist zuständig für alles was hinter den Kulissen von z.b. einer Webseite oder eines Mobile Games passiert.  
 Im Normalfall besteht das Backend aus einer Anzahl von Applikationsservern und Datenbanken, mit diversen kleineren Hilfssystemen für Überwachung, Analyse, Sicherheit, und so weiter.  
-Ein voll ausgebautes (und skalierbares) Backend braucht einiges an Zeit und Engagement. Im Idealfall haben Sie dafür einen voll integrierten Vollzeit Entwickler im Team. Diese sind jedoch schwer zu kriegen.
+Ein voll ausgebautes (und skalierbares) Backend braucht einiges an Zeit und Engagement. Im Idealfall haben Sie dafür einen voll integrierten Vollzeit Entwickler im Team.
 
 ### Was ich für Sie tun kann
 Auch wenn ich Ihnen nicht meine ganze Aufmerksamkeit widmen kann, gibt es ein paar Dinge die ich für sie tun kann. Unter anderem kann ich:
 - Prototypen erstellen und Ihnen dadurch Entscheidungshilfen liefern
 - Ein minimales System erstellen und Ihnen eine Starthilfe liefern
 - Technische Design Vorschläge "auf Papier" liefern
-- Ein neues Module innerhalb Ihres modularen Systems erstellen
+- Ein neues Modul innerhalb Ihres modularen Systems erstellen
 - Ihr System modular machen
 - Potentielle Vollzeit Entwickler interviewen
 
