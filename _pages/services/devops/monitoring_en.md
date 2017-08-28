@@ -11,7 +11,7 @@ If you run a backend system, you will need to monitor it. Things people are usua
 - Performance (do I need to scale up/down?)
 - System behavior (errors, warnings, all the witty messages dumped into log files)
 - User behavior (for optimizing the experience and resulting cash flow)
-- Ways to alert first responders in case of problems
+- Ways to alert first responders in case of outages
 
 ### What I can do for you
 Most of the above mentioned things can be added to an existing system, using out of the box or custom solutions, such as:
