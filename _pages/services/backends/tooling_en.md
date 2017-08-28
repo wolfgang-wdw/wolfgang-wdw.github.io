@@ -19,6 +19,4 @@ Sharp tools and machinery, customized to your needs, for example:
 - That really complicated question that you always wanted to ask your database(s)
 - A specific plugin for your favorite IDE, 3D Modeling Software, Text Editor, and so on
 
-It's usually command line tools, written in Shell Script, Python, Ruby, or whatever else is at hand.
-
 I will even write you a GUI tool or two. It's not my main forte, but, did I mention I like to learn?
