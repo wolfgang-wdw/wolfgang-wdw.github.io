@@ -23,7 +23,7 @@ I can automate the aforementioned processes, using tools and technologies such a
 - AWS (Amazon Web Services) Command Line Interface
 - Puppet
 - Apache JMeter
-- Old school make and its many descendants
+- Old school Make and its many descendants
 - All of the above mixed and matched
 
-If you need anything not on this list, let me know. I like to learn.
+If you need anything not on this list, [let me know](/contact_en). I like to learn.
