@@ -9,7 +9,7 @@ next: services_backends_tooling
 ---
 Fast alle Prozesse bei der Betreibung eines Backends können automatisiert werden.  
 Hier sind ein paar Beispiele:
-- Deployment einer neuen Version Ihrer Software
+- Einspielung (Deployment) einer neuen Version Ihrer Software
 - Nicht-Destruktive Änderungen im Datenbankschema
 - Continuous integration (das system periodisch und automatisch auf Fehler prüfen)
 - Backups von Datenbanken, Konfigurationsdaten, usw.
@@ -20,6 +20,7 @@ Ich kann die oben beschriebenen Prozesse automatisieren, mit Werkzeugen und Tech
 - Shell, Python, Ruby
 - Capistrano
 - Ansible
+- Jenkins
 - AWS (Amazon Web Services) Command Line Interface
 - Puppet
 - Apache JMeter

@@ -20,6 +20,7 @@ I can automate the aforementioned processes, using tools and technologies such a
 - Shell, Python, Ruby
 - Capistrano
 - Ansible
+- Jenkins
 - AWS (Amazon Web Services) Command Line Interface
 - Puppet
 - Apache JMeter

@@ -8,8 +8,8 @@ next: services_backends_architecture
 previous: services_consulting_due_diligence
 ---
 
-Im Bereich von Online Services, ist das Backend zuständig für alles was hinter den Kulissen von z.b. einer Webseite oder eines Mobile Games passiert.  
-Im Normalfall besteht das Backend aus einer Anzahl von Applikationsservern und Datenbanken, mit diversen kleineren Hilfssystemen für Überwachung, Analyse, Sicherheit, usw.  
+Das Backend, im Bereich von Online Services, ist zuständig für alles was hinter den Kulissen von z.b. einer Webseite oder eines Mobile Games passiert.  
+Im Normalfall besteht das Backend aus einer Anzahl von Applikationsservern und Datenbanken, mit diversen kleineren Hilfssystemen zur Überwachung, Analyse, Sicherheit, usw.  
 Ein voll ausgebautes (und skalierbares) Backend braucht einiges an Zeit und Engagement. Im Idealfall haben Sie dafür einen voll integrierten Vollzeit Entwickler im Team. Damit kann ich leider nicht dienen.
 
 ### Was ich für Sie tun kann
