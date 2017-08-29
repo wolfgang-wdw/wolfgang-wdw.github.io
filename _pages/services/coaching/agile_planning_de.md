@@ -11,10 +11,10 @@ Das Wort "Agil" kling hochgestochen, aber lassen Sie sich davon nicht beirren.
 Sie wollen agil sein. Sie wollen die Möglichkeit haben, die Richtung zu ändern.  
 Und die Planung is natürlich ein wesentlicher Bestandteil jedes ernsthaften Projektes.
 
-Salopp gesagt bedeutet Agile Planung daß man Pläne macht ohne dabei zu verkrampft zu sein.
+Salopp gesagt bedeutet Agile Planung, daß man Pläne macht ohne dabei zu verkrampft zu sein.
 
 Es beinhaltet auch die Kommunikation zwischen den Projekt Stakeholdern und den Entwicklern:  
-Die Seite, die gewünschte Ergebnisse definiert, und die, die diese Ergebnisse schaffen.
+Die Seite, die gewünschte Ergebnisse definiert, und die, die diese Ergebnisse schafft.
 
 Agil sein bedeutet nicht, daß man das Schiff jederzeit nach Lust und Laune herumreissen kann.  
 Änderungen werden möglich gemacht, jedoch welche Änderungen man ermöglichen will, und welche lieber nicht, ergibt sich im Laufe eines Projektes.  
