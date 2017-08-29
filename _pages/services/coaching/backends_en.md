@@ -1,6 +1,6 @@
 ---
 layout: service-detail
-title:  Coaching - Backends
+title:  Coaching - Backend Development
 lang: en
 permalink: "/services/coaching/backends_en/"
 lang_ref: services_coaching_backends
