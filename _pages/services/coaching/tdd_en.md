@@ -17,5 +17,5 @@ Depending on where you are with TDD, I can help you out in various ways:
 : I can give a little crash course to a meeting-room sized audience.
 - Kind of into it but want do dive deeper?
 : I can pair up with your developers and get diving, or we do a little workshop.
-- Have an area in your code where you are sure it does NOT work (but you would like it to)?
+- Have an area in your code where you are sure TDD does NOT work (but you would like it to)?
 : We can take it on together and see what we can learn.
