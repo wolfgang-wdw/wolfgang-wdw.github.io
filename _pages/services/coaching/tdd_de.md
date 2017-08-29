@@ -9,7 +9,7 @@ next: services_coaching_agile_planning
 ---
 Ich setze [Test Driven Development](https://de.wikipedia.org/wiki/Testgetriebene_Entwicklung) nun schon einige Jahre erfolgreich ein.  
 Speziell bei Backend Systemen, wo es keine nervigen GUI Elemente gibt, kann es sehr gut funktionieren.  
-Und ich bin immer mehr als gewillt das Einsatzgebiet zu erweitern.
+Ich bin jedoch immer mehr als gewillt das Einsatzgebiet zu erweitern.
 
 ### Was ich für Sie tun kann
 Abhängig davon wo sie gerade mit TDD sind, gibt es ein paar Möglichkeiten:
