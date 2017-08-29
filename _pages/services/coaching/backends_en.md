@@ -12,7 +12,7 @@ I will gladly share with you what I know about backend development, in a hands o
 
 ### What I can do for you
 - Got started but you got stuck?
-: Code smells? Not sure if you are using the "right" technology? Let me unstick you.
+: [Code smells](https://en.wikipedia.org/wiki/Smell_(Programmierung))? Not sure if you are using the "right" technology? Let me unstick you.
 - Don't know how to get started?
 : Lots and lots of ideas, but a sense of overwhelm? Let's untangle the web and start planning.
 - Have a specific sticky issue?
