@@ -7,7 +7,7 @@ lang_ref: services_coaching_agile_planning
 previous: services_coaching_tdd
 next: services_consulting_feasibility
 ---
-Das Wort "Agil" kling hochgestochen, aber lassen Sie sich davon nicht beirren.  
+Das Wort "Agil" klingt hochgestochen, aber lassen Sie sich davon nicht beirren.  
 Sie wollen agil sein. Sie wollen die Möglichkeit haben, die Richtung zu ändern.  
 Und die Planung is natürlich ein wesentlicher Bestandteil jedes ernsthaften Projektes.
 
