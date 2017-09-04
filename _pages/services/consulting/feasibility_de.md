@@ -12,7 +12,7 @@ Eine Sache, die wir vorab "messen" können, ist die Machbarkeit eines Projektes.
 Die Anführungszeichen sollen vermitteln, daß die Messung nicht exakt sein kann. In der Realität ist das oft ein schwammiger, iterativer Prozess. Aber irgendwo muß dieser Prozess nun mal anfangen.
 
 ### Was ich für Sie tun kann
-Ich suche für Sie Antworten auf Fragen wie diese:
+Ich begebe mich auf die Suche nach Antworten auf Fragen wie:
 - Kann es überhaupt in einer vernünftigen Zeit gemacht werden?
 - Wie lange wird es dauern?
 - Wieviele Entwickler werden benötigt?

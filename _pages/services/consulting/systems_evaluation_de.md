@@ -7,10 +7,10 @@ lang_ref: services_consulting_systems_evaluation
 previous: services_consulting_feasibility
 next: services_consulting_due_diligence
 ---
-Bei dieser Tätigkeit sehe ich mir Ihre System und deren Komponenten aus der Vogelperspektive an, und schaue mich nach Verbesserungspotential um. Dieses Potential teile ich Ihnen in Form von Empfehlungen mit.
+Bei dieser Tätigkeit sehe ich mir Ihre Systeme und deren Komponenten aus der Vogelperspektive an, und schaue mich nach Verbesserungspotential um. Dieses Potential teile ich Ihnen in Form von Empfehlungen mit.
 
 ### Was ich für Sie tun kann
-Ich werte Ihre Systeme nach ein paar Standard Kriterien aus:
+Ich werte Ihre Systeme nach ein paar Standardkriterien aus:
 - Skaliert es (falls es skalieren soll)?
 - Was sind die Betriebskosten?
 - Ist alles, das automatisiert werden kann, automatisiert?
