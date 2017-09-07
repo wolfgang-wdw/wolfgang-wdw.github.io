@@ -19,6 +19,6 @@ Or you can't even identify a specific problem but things just .. don't feel righ
 - Minimizing downtime
 : We look at the various components and identify ways to do just that. We also look at the issue of scheduled downtime, and if you want to afford it.
 - Rolling out a new feature
-: The path from local server to development, staging, live. Where to put QA, when to put QA on, etc.
+: The path from local server to development, staging, live. Integration of QA processes.
 - Getting started from scratch with DevOps
 : Recommendations depending on your requirements, or, say, a short and snappy presentation of what I learned "from the trenches".

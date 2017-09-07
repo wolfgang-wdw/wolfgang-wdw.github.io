@@ -19,6 +19,6 @@ Oder Sie können nicht wirklich ein Problem identifizieren. Es fühlt sich nur .
 - Minimierung von Abschaltzeiten
 : Wir schauen uns die einzelnen Komponenten an und finden Wege genau das zu tun. Wir beschäftigen uns auch mit dem Thema "Geplante Abschaltzeiten", und ob Sie sich diese leisten wollen.
 - Ein neues Feature ausrollen
-: Der Pfad vom lokalen Server zum Entwicklungs/Staging/Live System. Wo fängt die QA an, wann fängt sie an, usw.
+: Der Pfad vom lokalen Server zum Entwicklungs/Staging/Live System. Einbindung von QA Prozessen.
 - Mit DevOps von Grund auf beginnen
 : Empfehlungen anhand Ihrer Systemanforderungen, oder, sagen wir, eine kleine Präsentation von dem, was ich so über die Jahre gelernt habe.
