@@ -1,8 +1,6 @@
 ---
 layout: post
 lang: en
+title: This is another post title
 ---
-FIRST POST
-
-lassd
-adsdsa
+This is another post content

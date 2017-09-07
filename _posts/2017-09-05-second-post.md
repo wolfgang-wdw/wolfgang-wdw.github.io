@@ -1,8 +1,6 @@
 ---
 layout: post
 lang: en
+title: This is the title
 ---
-SECOND POST
-
-lala blah
-blah
+This is the content
