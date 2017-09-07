@@ -9,7 +9,7 @@ next: services_consulting_systems_evaluation
 ---
 Als Berater mache ich Messungen und berichte Ihnen die Ergebnisse.  
 Eine Sache, die wir vorab "messen" können, ist die Machbarkeit eines Projektes.
-Die Anführungszeichen sollen vermitteln, daß die Messung nicht exakt sein kann. In der Realität ist das oft ein schwammiger, iterativer Prozess. Aber irgendwo muß dieser Prozess nun mal anfangen.
+Die Anführungszeichen sollen vermitteln, daß die Messung nicht exakt sein wird. Die Realität ist oft ein schwammiger, iterativer Prozess. Aber irgendwo muß dieser Prozess nun mal anfangen.
 
 ### Was ich für Sie tun kann
 Ich begebe mich auf die Suche nach Antworten auf Fragen wie:

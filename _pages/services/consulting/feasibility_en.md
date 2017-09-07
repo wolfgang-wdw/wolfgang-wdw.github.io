@@ -9,7 +9,7 @@ next: services_consulting_systems_evaluation
 ---
 As a consultant, I make measurements and report the results back to you.  
 One of the things we can "measure" up front is the feasibility (i.e. can it be done?) of a project.
-I put the quotes there because the measuring here is not exact. In reality it is a kind of fuzzy, iterative process, but it has to start somewhere.
+I put the quotes there because the measurements will not be exact. In reality it is a kind of fuzzy, iterative process, that nevertheless has to start somewhere.
 
 ### What I can do for you
 I go in search of answers to questions like:
@@ -17,6 +17,6 @@ I go in search of answers to questions like:
 - How long will it take?
 - How many developers are needed?
 - What developer roles are needed?
-- What technologies seem best suited?
+- What technologies are best suited?
 
 I can also write all this up nice and neat so you can hand it to potential investors.
