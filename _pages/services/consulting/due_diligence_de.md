@@ -10,7 +10,7 @@ next: services_backends_code
 Falls Sie ein neues Team oder eine Firma integrieren wollen, kann ich Ihnen mit Due Diligence im Bereich von Backend Entwicklung- und Betreibung helfen.
 
 ### Was ich für Sie tun kann
-Due Diligence für:
+Ich stelle dem neuen Team Fragen über:
 - Entwicklungsprozesse
 - DevOps-Prozesse
 - Planungsprozesse
