@@ -17,6 +17,8 @@
         {% for item in site.nav[page.lang] %}
           {% if item.href_base == '' %}
             {% assign lang_postfix = '' %}
+          {% elsif item.bilingual == true %}
+            {% assign lang_postfix = '' %}
           {% else %}
             {% assign lang_postfix = '_' | append: page.lang %}
           {% endif %}

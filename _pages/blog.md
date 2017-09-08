@@ -1,7 +1,11 @@
 ---
 layout: default
+title:  Blog
+lang: en
+lang_ref: blog
+permalink: "/blog/"
 ---
-{{ content }}
+Blog Posts
 <div class="post-list">
 <ul>
     {% for post in site.posts %}

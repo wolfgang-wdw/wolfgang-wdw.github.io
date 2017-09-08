@@ -22,12 +22,12 @@ nav:
   en:
     - { title: 'Home', href_base: '', ref: 'home' }
     - { title: 'Services', href_base: 'services' }
-    - { title: 'Blog', href_base: 'blog' }
+    - { title: 'Blog', href_base: 'blog', bilingual: true }
     - { title: 'Contact', href_base: 'contact' }
   de:
     - { title: 'Start', href_base: 'index', ref: 'home' }
     - { title: 'Leistungen', href_base: 'services' }
-    - { title: 'Blog', href_base: 'blog' }
+    - { title: 'Blog', href_base: 'blog', bilingual: true }
     - { title: 'Kontakt', href_base: 'contact' }
 
 services:
