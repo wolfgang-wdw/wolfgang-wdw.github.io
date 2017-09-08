@@ -87,3 +87,23 @@ a.en:hover, a.de:hover {
     white-space: pre;
   }
 }
+
+.post-list {
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+}
+
+.post-meta {
+  font-size: 80%;
+  font-weight: 500;
+  color: #bbb;
+}
+
+.post-link {
+    font-size: 90%;
+    font-weight: 500;
+}

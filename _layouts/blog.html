@@ -2,12 +2,14 @@
 layout: default
 ---
 {{ content }}
+<div class="post-list">
 <ul>
     {% for post in site.posts %}
       <li>
         {% assign date_format = site.date_format | default: "%Y-%m-%d" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <p><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></p>
+        <span class="post-meta">{{ post.date | date: date_format }}</span> &bull;
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </li>
     {% endfor %}
 </ul>
+</div>
