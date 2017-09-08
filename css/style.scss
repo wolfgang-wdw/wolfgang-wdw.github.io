@@ -14,6 +14,7 @@
 @import 'service-grid';
 @import "content";
 @import "contact";
+@import "blog";
 
 body {
   padding: 1%;
@@ -86,38 +87,4 @@ a.en:hover, a.de:hover {
     content:"\a";
     white-space: pre;
   }
-}
-
-.post-list {
-  ul {
-    padding-left: 0;
-  }
-  li {
-    list-style-type: none;
-  }
-}
-
-.post-meta {
-  font-size: 80%;
-  font-weight: 500;
-  color: #bbb;
-}
-
-.post-link {
-    font-size: 80%;
-    font-weight: 500;
-}
-
-.post-detail-title {
-  font-size: 140%;
-  font-weight: 500;
-}
-
-.post-detail-date {
-  font-size: 80%;
-  font-weight: 400;
-  color: #999;
-}
-
-.post-detail-content {
 }
