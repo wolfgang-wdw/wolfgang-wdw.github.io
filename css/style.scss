@@ -98,6 +98,7 @@ a.en:hover, a.de:hover {
 }
 
 .post-meta {
+  // font-family: 'Inconsolata';
   font-size: 80%;
   font-weight: 500;
   color: #bbb;
@@ -106,4 +107,15 @@ a.en:hover, a.de:hover {
 .post-link {
     font-size: 90%;
     font-weight: 500;
+}
+
+.post-detail-title {
+  font-size: 120%;
+  font-weight: 500;
+}
+
+.post-detail-date {
+  font-size: 80%;
+  font-weight: 400;
+  color: #999;
 }

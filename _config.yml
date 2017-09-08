@@ -1,3 +1,4 @@
+date_format: "%b %d, %Y"
 contact:
   - name: Email
     link: mailto:wolfgang@wolfgangdeutsch.work

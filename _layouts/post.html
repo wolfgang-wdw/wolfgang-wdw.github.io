@@ -1,5 +1,6 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
+<span class="post-detail-title">{{ page.title }}</span>
+<p class="post-detail-date">Posted on {{ page.date | date: site.date_format }}</p>
 {{ content }}
