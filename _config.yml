@@ -35,7 +35,7 @@ services:
   languages:
     en:
       - name: Development
-        id: backends
+        id: development
         sections:
           - Backends
           - Architecture
@@ -64,7 +64,7 @@ services:
           - Due Diligence
     de:
       - name: Entwicklung
-        id: backends
+        id: development
         sections:
           - Backends
           - Architektur
@@ -92,7 +92,7 @@ services:
           - System-Auswertung
           - Due Diligence
   links:
-    backends:
+    development:
       - code
       - architecture
       - automation

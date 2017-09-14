@@ -1,9 +1,9 @@
 ---
 layout: service-detail
-title:  Backends - Code
+title:  Entwicklung - Backends
 lang: de
-permalink: "/services/backends/code_de/"
-lang_ref: services_backends_code
+permalink: "/services/development/code_de/"
+lang_ref: services_development_backends
 next: services_backends_architecture
 previous: services_consulting_due_diligence
 ---

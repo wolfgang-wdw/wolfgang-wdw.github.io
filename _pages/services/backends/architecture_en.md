@@ -4,7 +4,7 @@ title:  Backends - Architecture
 lang: en
 permalink: "/services/backends/architecture_en/"
 lang_ref: services_backends_architecture
-previous: services_backends_code
+previous: services_development_backends
 next: services_backends_automation
 ---
 With architecture, I mean the way the components of the system are put together. For example:
