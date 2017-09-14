@@ -1,11 +1,11 @@
 ---
 layout: service-detail
-title:  Backends - Architecture
+title:  Development - Architecture
 lang: en
-permalink: "/services/backends/architecture_en/"
-lang_ref: services_backends_architecture
+permalink: "/services/development/architecture_en/"
+lang_ref: services_development_architecture
 previous: services_development_backends
-next: services_backends_automation
+next: services_development_automation
 ---
 With architecture, I mean the way the components of the system are put together. For example:
 

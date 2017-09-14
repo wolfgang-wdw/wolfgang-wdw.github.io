@@ -4,7 +4,7 @@ title:  Development - Backends
 lang: en
 permalink: "/services/development/backends_en/"
 lang_ref: services_development_backends
-next: services_backends_architecture
+next: services_development_architecture
 previous: services_consulting_due_diligence
 ---
 Broadly speaking, in the context of online services, the backend is everything that lies behind the curtain of your web site, mobile game, not mobile game, or anything else that interacts with a user and is connected to the internet.  

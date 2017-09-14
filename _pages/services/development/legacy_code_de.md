@@ -1,10 +1,10 @@
 ---
 layout: service-detail
-title:  Backends - Legacy Code
+title:  Entwicklung - Legacy Code
 lang: de
-permalink: "/services/backends/legacy_code_de/"
-lang_ref: services_backends_legacy_code
-previous: services_backends_tooling
+permalink: "/services/development/legacy_code_de/"
+lang_ref: services_development_legacy_code
+previous: services_development_tooling
 next: services_devops_operation
 ---
 Das englische [Wikipedia](https://en.wikipedia.org/wiki/Legacy_code) beschreibt Legacy Code als "source code that relates to a no-longer supported or manufactured operating system or other computer technology."
