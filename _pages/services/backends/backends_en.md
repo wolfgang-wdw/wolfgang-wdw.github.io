@@ -2,7 +2,7 @@
 layout: service-detail
 title:  Development - Backends
 lang: en
-permalink: "/services/development/code_en/"
+permalink: "/services/development/backends_en/"
 lang_ref: services_development_backends
 next: services_backends_architecture
 previous: services_consulting_due_diligence

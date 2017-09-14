@@ -93,7 +93,7 @@ services:
           - Due Diligence
   links:
     development:
-      - code
+      - backends
       - architecture
       - automation
       - tooling
