@@ -34,10 +34,10 @@ nav:
 services:
   languages:
     en:
-      - name: Backends
+      - name: Development
         id: backends
         sections:
-          - Code
+          - Backends
           - Architecture
           - Automation
           - Tooling
@@ -63,10 +63,10 @@ services:
           - Systems Evaluation
           - Due Diligence
     de:
-      - name: Backends
+      - name: Entwicklung
         id: backends
         sections:
-          - Code
+          - Backends
           - Architektur
           - Automatisierung
           - Werkzeuge
