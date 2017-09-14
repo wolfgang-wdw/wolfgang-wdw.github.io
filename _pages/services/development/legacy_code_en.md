@@ -5,7 +5,7 @@ lang: en
 permalink: "/services/development/legacy_code_en/"
 lang_ref: services_development_legacy_code
 previous: services_development_tooling
-next: services_devops_operation
+next: services_operation_devops
 ---
 According to [Wikipedia](https://en.wikipedia.org/wiki/Legacy_code), Legacy Code is "is source code that relates to a no-longer supported or manufactured operating system or other computer technology."
 

@@ -1,9 +1,9 @@
 ---
 layout: service-detail
-title:  DevOps - Operation
+title:  Operation - DevOps
 lang: en
-permalink: "/services/devops/operation_en/"
-lang_ref: services_devops_operation
+permalink: "/services/operation/devops_en/"
+lang_ref: services_operation_devops
 previous: services_development_legacy_code
 next: services_devops_load_testing
 ---

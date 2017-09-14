@@ -42,10 +42,10 @@ services:
           - Automation
           - Tooling
           - Legacy Code
-      - name: DevOps
-        id: devops
+      - name: Operation
+        id: operation
         sections:
-          - Operation
+          - DevOps
           - Load Testing
           - Monitoring
           - Scaling
@@ -71,10 +71,10 @@ services:
           - Automatisierung
           - Werkzeuge
           - Legacy Code
-      - name: DevOps
-        id: devops
+      - name: Betreibung
+        id: operation
         sections:
-          - Betreibung
+          - DevOps
           - Last Tests
           - Überwachung
           - Skalierung
@@ -98,8 +98,8 @@ services:
       - automation
       - tooling
       - legacy_code
-    devops:
-      - operation
+    operation:
+      - devops
       - load_testing
       - monitoring
       - scaling
