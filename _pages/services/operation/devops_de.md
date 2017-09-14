@@ -5,7 +5,7 @@ lang: de
 permalink: "/services/operation/devops_de/"
 lang_ref: services_operation_devops
 previous: services_development_legacy_code
-next: services_devops_load_testing
+next: services_operation_load_testing
 ---
 DevOps (eine Kunstwort aus den Begriffen "development" und "operation") steht für die effektive Kommunikation zwischen Entwicklern und Betreibern (und vielleicht Managern) von Backend Systemen.
 

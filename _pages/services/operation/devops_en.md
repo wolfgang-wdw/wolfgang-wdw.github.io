@@ -5,7 +5,7 @@ lang: en
 permalink: "/services/operation/devops_en/"
 lang_ref: services_operation_devops
 previous: services_development_legacy_code
-next: services_devops_load_testing
+next: services_operation_load_testing
 ---
 DevOps (short for a combination of "development" and "operation") is about how developers and operators (and maybe managers) of backend systems can communicate most effectively.
 

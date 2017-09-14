@@ -1,11 +1,11 @@
 ---
 layout: service-detail
-title:  DevOps - Überwachung
+title:  Betreibung - Überwachung
 lang: de
-permalink: "/services/devops/monitoring_de/"
-lang_ref: services_devops_monitoring
-previous: services_devops_load_testing
-next: services_devops_scaling
+permalink: "/services/operation/monitoring_de/"
+lang_ref: services_operation_monitoring
+previous: services_operation_load_testing
+next: services_operation_scaling
 ---
 Ihr Backend System muss überwacht werden. Dabei sind unter anderem folgende Dinge interessant:
 - Leistung (muss ich hoch- oder runterskalieren?)

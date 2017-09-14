@@ -1,11 +1,11 @@
 ---
 layout: service-detail
-title:  DevOps - Monitoring
+title:  Operation - Monitoring
 lang: en
-permalink: "/services/devops/monitoring_en/"
-lang_ref: services_devops_monitoring
-previous: services_devops_load_testing
-next: services_devops_scaling
+permalink: "/services/operation/monitoring_en/"
+lang_ref: services_operation_monitoring
+previous: services_operation_load_testing
+next: services_operation_scaling
 ---
 If you run a backend system, you will need to monitor it. Things people are usually interested in are, among others:
 - Performance (do I need to scale up/down?)
