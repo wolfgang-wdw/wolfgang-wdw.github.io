@@ -1,10 +1,10 @@
 ---
 layout: service-detail
-title:  Coaching - Backend Development
+title:  Coaching - Backends
 lang: en
 permalink: "/services/coaching/backends_en/"
 lang_ref: services_coaching_backends
-previous: services_devops_scaling
+previous: services_operation_scaling
 next: services_coaching_devops
 ---
 Coaching is the art of asking the right questions to tease out answers.  

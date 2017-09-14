@@ -1,11 +1,11 @@
 ---
 layout: service-detail
-title:  Backends - Tooling
+title:  Development - Tooling
 lang: en
-permalink: "/services/backends/tooling_en/"
-lang_ref: services_backends_tooling
-previous: services_backends_automation
-next: services_backends_legacy_code
+permalink: "/services/development/tooling_en/"
+lang_ref: services_development_tooling
+previous: services_development_automation
+next: services_development_legacy_code
 ---
 Good tools enable the best people to do their best work.  
 [COTS](https://en.wikipedia.org/wiki/Commercial_off-the-shelf) is almost always the best choice. Especially if there are good customization options.

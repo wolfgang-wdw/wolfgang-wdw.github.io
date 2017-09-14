@@ -1,10 +1,10 @@
 ---
 layout: service-detail
-title:  DevOps - Skalierung
+title:  Betreibung - Skalierung
 lang: de
-permalink: "/services/devops/scaling_de/"
-lang_ref: services_devops_scaling
-previous: services_devops_monitoring
+permalink: "/services/operation/scaling_de/"
+lang_ref: services_operation_scaling
+previous: services_operation_monitoring
 next: services_coaching_backends
 ---
 Unter Skalierung verstehe ich das strategische Erhöhen der Ressourcen eines laufenden Systems, um eine Steigung in der Belastung (normalerweise durch Datenverkehr von den Benutzern) aufzufangen.  

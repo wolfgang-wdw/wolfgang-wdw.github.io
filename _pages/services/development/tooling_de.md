@@ -1,11 +1,11 @@
 ---
 layout: service-detail
-title:  Backends - Werkzeuge
+title:  Entwicklung - Werkzeuge
 lang: de
-permalink: "/services/backends/tooling_de/"
-lang_ref: services_backends_tooling
-previous: services_backends_automation
-next: services_backends_legacy_code
+permalink: "/services/development/tooling_de/"
+lang_ref: services_development_tooling
+previous: services_development_automation
+next: services_development_legacy_code
 ---
 Gute Werkzeuge ermöglichen es den besten Leuten ihre beste Arbeit zu machen.  
 [COTS](https://de.wikipedia.org/wiki/Commercial_off-the-shelf) ist fast immer die beste Wahl. Vor allem wenn es gute Anpassungsmöglichkeiten gibt.

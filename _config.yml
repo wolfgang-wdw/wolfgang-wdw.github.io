@@ -33,18 +33,18 @@ nav:
 services:
   languages:
     en:
-      - name: Backends
-        id: backends
+      - name: Development
+        id: development
         sections:
-          - Code
+          - Backends
           - Architecture
           - Automation
           - Tooling
           - Legacy Code
-      - name: DevOps
-        id: devops
+      - name: Operation
+        id: operation
         sections:
-          - Operation
+          - DevOps
           - Load Testing
           - Monitoring
           - Scaling
@@ -62,18 +62,18 @@ services:
           - Systems Evaluation
           - Due Diligence
     de:
-      - name: Backends
-        id: backends
+      - name: Entwicklung
+        id: development
         sections:
-          - Code
+          - Backends
           - Architektur
           - Automatisierung
           - Werkzeuge
           - Legacy Code
-      - name: DevOps
-        id: devops
+      - name: Betreibung
+        id: operation
         sections:
-          - Betreibung
+          - DevOps
           - Last Tests
           - Überwachung
           - Skalierung
@@ -91,14 +91,14 @@ services:
           - System-Auswertung
           - Due Diligence
   links:
-    backends:
-      - code
+    development:
+      - backends
       - architecture
       - automation
       - tooling
       - legacy_code
-    devops:
-      - operation
+    operation:
+      - devops
       - load_testing
       - monitoring
       - scaling

@@ -1,11 +1,11 @@
 ---
 layout: service-detail
-title:  DevOps - Load Testing
+title:  Operation - Load Testing
 lang: en
-permalink: "/services/devops/load_testing_en/"
-lang_ref: services_devops_load_testing
-previous: services_devops_operation
-next: services_devops_monitoring
+permalink: "/services/operation/load_testing_en/"
+lang_ref: services_operation_load_testing
+previous: services_operation_devops
+next: services_operation_monitoring
 ---
 "Load Testing" (or Stress Testing) is the act of sending traffic into your system such that you can gauge the limits of its high and low level performance markers.  
 This goes from your database architecture to how much write throughput your disks should have.

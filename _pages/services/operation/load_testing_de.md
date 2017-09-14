@@ -1,11 +1,11 @@
 ---
 layout: service-detail
-title:  DevOps - Last Tests
+title:  Betreibung - Last Tests
 lang: de
-permalink: "/services/devops/load_testing_de/"
-lang_ref: services_devops_load_testing
-previous: services_devops_operation
-next: services_devops_monitoring
+permalink: "/services/operation/load_testing_de/"
+lang_ref: services_operation_load_testing
+previous: services_operation_devops
+next: services_operation_monitoring
 ---
 Last Tests (oder Stress Tests) sind Tests, bei denen künstlicher Datenverkehr in Ihren Systemen erzeugt wird, um die Leistungsgrenzen auf verschiedenen Ebenen festzustellen.  
 Diese Ebenen erstrecken sich von der Datenbank Architektur bis hin zum nötigen Schreibdurchsatz Ihrer Festplatten.  

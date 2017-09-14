@@ -1,11 +1,11 @@
 ---
 layout: service-detail
-title:  DevOps - Betreibung
+title:  Betreibung - DevOps
 lang: de
-permalink: "/services/devops/operation_de/"
-lang_ref: services_devops_operation
-previous: services_backends_legacy_code
-next: services_devops_load_testing
+permalink: "/services/operation/devops_de/"
+lang_ref: services_operation_devops
+previous: services_development_legacy_code
+next: services_operation_load_testing
 ---
 DevOps (eine Kunstwort aus den Begriffen "development" und "operation") steht für die effektive Kommunikation zwischen Entwicklern und Betreibern (und vielleicht Managern) von Backend Systemen.
 

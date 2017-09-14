@@ -1,10 +1,10 @@
 ---
 layout: service-detail
-title:  Coaching - Backend Entwicklung
+title:  Coaching - Backends
 lang: de
 permalink: "/services/coaching/backends_de/"
 lang_ref: services_coaching_backends
-previous: services_devops_scaling
+previous: services_operation_scaling
 next: services_coaching_devops
 ---
 Unter Coaching verstehe ich die Kunst, die richtigen Fragen zu stellen um gemeinsam zu Antworten zu kommen.  

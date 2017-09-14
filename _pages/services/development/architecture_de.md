@@ -1,11 +1,11 @@
 ---
 layout: service-detail
-title:  Backends - Architektur
+title:  Entwicklung - Architektur
 lang: de
-permalink: "/services/backends/architecture_de/"
-lang_ref: services_backends_architecture
-previous: services_backends_code
-next: services_backends_automation
+permalink: "/services/development/architecture_de/"
+lang_ref: services_development_architecture
+previous: services_development_backends
+next: services_development_automation
 ---
 Mit Architektur meine ich die grobe Zusammensetzung der Komponenten des Systems. Zum Beispiel:
 - Datenbanken können in "clustern" oder "[shards](https://en.wikipedia.org/wiki/Shard_(database_architecture))" gruppiert sein, sie können repliziert sein, usw.

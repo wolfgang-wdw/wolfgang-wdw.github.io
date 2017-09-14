@@ -1,13 +1,13 @@
 ---
 layout: service-detail
-title:  Coaching - Test Driven Development
+title:  Coaching - TDD
 lang: de
 permalink: "/services/coaching/tdd_de/"
 lang_ref: services_coaching_tdd
 previous: services_coaching_devops
 next: services_coaching_agile_planning
 ---
-Ich setze [Test Driven Development](https://de.wikipedia.org/wiki/Testgetriebene_Entwicklung) nun schon einige Jahre erfolgreich ein.  
+Ich setze [Test Driven Development](https://de.wikipedia.org/wiki/Testgetriebene_Entwicklung) (kurz TDD) nun schon einige Jahre erfolgreich ein.  
 Speziell bei Backend Systemen, wo es keine nervigen GUI Elemente gibt, kann es sehr gut funktionieren.  
 Ich bin jedoch immer mehr als gewillt das Einsatzgebiet zu erweitern.
 

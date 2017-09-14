@@ -1,11 +1,11 @@
 ---
 layout: service-detail
-title:  Backends - Automatisierung
+title:  Entwicklung - Automatisierung
 lang: de
-permalink: "/services/backends/automation_de/"
-lang_ref: services_backends_automation
-previous: services_backends_architecture
-next: services_backends_tooling
+permalink: "/services/development/automation_de/"
+lang_ref: services_development_automation
+previous: services_development_architecture
+next: services_development_tooling
 ---
 Fast alle Prozesse bei der Betreibung eines Backends können automatisiert werden.  
 Hier sind ein paar Beispiele:
