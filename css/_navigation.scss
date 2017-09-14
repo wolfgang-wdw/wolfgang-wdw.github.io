@@ -32,6 +32,9 @@
   text-align: center;
   .current-page-title {
     font-size: 180%;
+    @media (max-width: $screen-md-min) {
+      font-size: 150%;
+    }
   }
   @media (min-width: $screen-md-min) {
     padding-left: 100px;
