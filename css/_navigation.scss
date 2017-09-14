@@ -28,10 +28,10 @@
 .breadcrumb {
   background: $site-background-color;
   font-size: 85%;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   .current-page-title {
-    font-size: 150%;
+    font-size: 180%;
   }
   @media (min-width: $screen-md-min) {
     padding-left: 100px;
