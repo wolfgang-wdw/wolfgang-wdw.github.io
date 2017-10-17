@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: frontpage
 title:  Start
 lang: de
 lang_ref: home

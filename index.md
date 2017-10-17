@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: frontpage
 title:  Home
 lang: en
 lang_ref: home
